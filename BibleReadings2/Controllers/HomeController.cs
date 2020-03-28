@@ -20,19 +20,35 @@ namespace BibleReadings2.Controllers
             _readingsRepo = readingsRepo;
         }
 
-        public async Task<IActionResult> Index()
+        [HttpGet]
+        public IActionResult Index()
         {
             var today = DateTime.Today;
+            var url = Url.Action("GetReading", new
+            {
+                year = today.Year,
+                month = today.Month,
+                day = today.Day
+            });
 
-            var todaysReadings = await _readingsRepo.GetReadings(today.Month, today.Day);
+            return Redirect(url);
+        }
+
+        [HttpGet("/{year}/{month}/{day}")]
+        public async Task<IActionResult> GetReading(int year, int month, int day)
+        {
+            var date = new DateTime(year, month, day);
+            var readings = await _readingsRepo.GetReadings(date.Month, date.Day);
 
             var model = new ReadingsViewModel
             {
-                Date = today,
-                Readings = todaysReadings.Readings.Select(reading => new ReadingViewModel(reading)),
+                Date = date,
+                Readings = readings.Readings.Select(reading => new ReadingViewModel(reading)),
             };
+
             return View(model);
         }
+        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
