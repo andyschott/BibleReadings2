@@ -1,8 +1,14 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model ReadingsViewModel
+
+@{
+    ViewData["Title"] = "Today's Readings";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Bible Readings for @Model.DateString</h1>
+
+<ul>
+    @foreach(var reading in Model.Readings)
+    {
+        <li><a href="@reading.Url">@reading.ReadingText</a></li>
+    }
+</ul>
