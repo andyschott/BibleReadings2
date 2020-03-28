@@ -8,6 +8,7 @@ namespace Microsoft.Extensions.DependencyInjection
         public static void AddJsonRepository(this IServiceCollection services)
         {
             services.AddSingleton<IReadingsRepository, JsonReadingsRepository>();
+            services.AddSingleton<ITranslationsRepository, JsonTranslationsRepository>();
         }
     }
 }

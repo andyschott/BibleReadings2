@@ -5,7 +5,7 @@ using Xunit;
 
 namespace BibleReadings2.Repository.Json.Test
 {
-    public class RepositoryTests
+    public class ReadingTests
     {
         private readonly JsonReadingsRepository _repository = new JsonReadingsRepository();
 

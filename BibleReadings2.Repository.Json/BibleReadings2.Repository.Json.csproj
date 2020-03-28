@@ -23,5 +23,7 @@
     <EmbeddedResource Include="data/10.json" />
     <EmbeddedResource Include="data/11.json" />
     <EmbeddedResource Include="data/12.json" />
+    <EmbeddedResource Include="data/english_translations.json" />
+    <EmbeddedResource Include="data/german_translations.json" />
   </ItemGroup>
 </Project>
