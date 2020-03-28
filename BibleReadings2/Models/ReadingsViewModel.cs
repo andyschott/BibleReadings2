@@ -10,6 +10,9 @@ namespace BibleReadings2.Models
         public DateTime Date { get; set; }
         public string DateString => Date.ToString("D");
 
+        public DateTime Next => Date.AddDays(1);
+        public DateTime Previous => Date.AddDays(-1);
+
         public IEnumerable<ReadingViewModel> Readings { get; set; } = Enumerable.Empty<ReadingViewModel>();
 
         public string BuildAllReadingsLink() => BibleGateway.BuildAllReadingsUrl(Readings.Select(reading => reading.Reading));

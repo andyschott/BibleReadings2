@@ -5,3 +5,17 @@
 }
 
 @await Html.PartialAsync("ReadingsPartial", Model)
+
+<p>
+    <a asp-action="GetReading" asp-controller="Home"
+        asp-route-year="@Model.Previous.Year"
+        asp-route-month="@Model.Previous.Month"
+        asp-route-day="@Model.Previous.Day">&lt;&lt; Previous</a>
+    |
+    <a asp-action="Index" asp-controller="Home">Today</a>
+    |
+    <a asp-action="GetReading" asp-controller="Home"
+        asp-route-year="@Model.Next.Year"
+        asp-route-month="@Model.Next.Month"
+        asp-route-day="@Model.Next.Day">Next &gt;&gt;</a>
+</p>
