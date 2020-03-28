@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using BibleReadings2.Helpers;
 
 namespace BibleReadings2.Models
 {
@@ -10,5 +11,7 @@ namespace BibleReadings2.Models
         public string DateString => Date.ToString("D");
 
         public IEnumerable<ReadingViewModel> Readings { get; set; } = Enumerable.Empty<ReadingViewModel>();
+
+        public string BuildAllReadingsLink() => BibleGateway.BuildAllReadingsUrl(Readings.Select(reading => reading.Reading));
     }
 }
