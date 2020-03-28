@@ -1,15 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
   <ItemGroup>
-    <ProjectReference Include="..\BibleReadings2.Repository.Json\BibleReadings2.Repository.Json.csproj" />
+    <ProjectReference Include="..\BibleReadings2.Repository.Json\BibleReadings2.Repository.Json.csproj"/>
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.2.1"/>
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
   <PropertyGroup>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
 </Project>
