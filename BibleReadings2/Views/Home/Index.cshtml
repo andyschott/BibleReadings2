@@ -4,15 +4,4 @@
     ViewData["Title"] = "Today's Readings";
 }
 
-<h1>Bible Readings for @Model.DateString</h1>
-
-<ul>
-    @foreach(var reading in Model.Readings)
-    {
-        <li><a href="@reading.Url">@reading.ReadingText</a></li>
-    }
-</ul>
-
-<p>
-    <a href="@Model.BuildAllReadingsLink()">Open All Readings</a>
-</p>
+@await Html.PartialAsync("ReadingsPartial", Model)
