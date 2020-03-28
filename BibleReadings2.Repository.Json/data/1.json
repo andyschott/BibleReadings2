@@ -1,0 +1,397 @@
+[
+    {
+        "readings": [
+            {
+                "book": "Luke",
+                "startChapter": 1,
+                "startVerse": 68,
+                "endChapter": 1,
+                "endVerse": 79
+            },
+            {
+                "book": "Mark",
+                "startChapter": 2
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 30
+            },
+            {
+                "book": "Mark",
+                "startchapter": 3
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 31
+            },
+            {
+                "book": "Mark",
+                "startchapter": 4
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 32
+            },
+            {
+                "book": "Mark",
+                "startchapter": 5
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 33
+            },
+            {
+                "book": "Mark",
+                "startchapter": 6
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 34
+            },
+            {
+                "book": "Mark",
+                "startchapter": 7
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 35
+            },
+            {
+                "book": "Mark",
+                "startchapter": 8
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 36
+            },
+            {
+                "book": "Mark",
+                "startchapter": 9
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 37
+            },
+            {
+                "book": "Mark",
+                "startchapter": 10
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 38
+            },
+            {
+                "book": "Mark",
+                "startchapter": 11
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 39
+            },
+            {
+                "book": "Mark",
+                "startchapter": 12
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 40
+            },
+            {
+                "book": "Mark",
+                "startchapter": 13
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 41
+            },
+            {
+                "book": "Mark",
+                "startchapter": 14
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 42
+            },
+            {
+                "book": "Mark",
+                "startchapter": 15
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 43
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 1,
+                "endchapter": 3
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 44
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 4,
+                "endchapter": 6
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 45
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 7,
+                "endchapter": 9
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 46
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 10,
+                "endchapter": 12
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 47
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 13,
+                "endchapter": 15
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 48
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 16,
+                "endchapter": 18
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 49
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 19,
+                "endchapter": 21
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 50
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 22,
+                "endchapter": 24
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 51
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 25,
+                "endchapter": 27
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 52
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 28,
+                "endchapter": 30
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 53
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 31,
+                "endchapter": 33
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 54
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 34,
+                "endchapter": 36
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 55
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 37,
+                "endchapter": 39
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 56
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 40,
+                "endchapter": 42
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 57
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 43,
+                "endchapter": 45
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startchapter": 58
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 46,
+                "endchapter": 48
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Luke",
+                "startchapter": 1,
+                "startverse": 68,
+                "endchapter": 1,
+                "endverse": 79
+            },
+            {
+                "book": "Genesis",
+                "startchapter": 49,
+                "endchapter": 50
+            }
+        ]
+    }
+]

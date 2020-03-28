@@ -1,0 +1,542 @@
+[
+    {
+        "readings": [
+            {
+                "book": "Isaiah",
+                "startChapter": 25,
+                "startVerse": 1,
+                "endChapter": 25,
+                "endVerse": 9
+            },
+            {
+                "book": "Acts",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 2,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 115,
+                "startVerse": 0,
+                "endChapter": 115,
+                "endVerse": 0
+            },
+            {
+                "book": "Acts",
+                "startChapter": 3,
+                "startVerse": 0,
+                "endChapter": 4,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 116,
+                "startVerse": 0,
+                "endChapter": 116,
+                "endVerse": 0
+            },
+            {
+                "book": "Acts",
+                "startChapter": 5,
+                "startVerse": 0,
+                "endChapter": 6,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 117,
+                "startVerse": 0,
+                "endChapter": 117,
+                "endVerse": 0
+            },
+            {
+                "book": "Acts",
+                "startChapter": 7,
+                "startVerse": 0,
+                "endChapter": 8,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 118,
+                "startVerse": 0,
+                "endChapter": 118,
+                "endVerse": 0
+            },
+            {
+                "book": "Acts",
+                "startChapter": 9,
+                "startVerse": 0,
+                "endChapter": 10,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 1,
+                "endChapter": 119,
+                "endVerse": 8
+            },
+            {
+                "book": "Acts",
+                "startChapter": 11,
+                "startVerse": 0,
+                "endChapter": 12,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 9,
+                "endChapter": 119,
+                "endVerse": 16
+            },
+            {
+                "book": "Acts",
+                "startChapter": 13,
+                "startVerse": 0,
+                "endChapter": 14,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 17,
+                "endChapter": 119,
+                "endVerse": 24
+            },
+            {
+                "book": "Acts",
+                "startChapter": 15,
+                "startVerse": 0,
+                "endChapter": 16,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 25,
+                "endChapter": 119,
+                "endVerse": 32
+            },
+            {
+                "book": "Acts",
+                "startChapter": 17,
+                "startVerse": 0,
+                "endChapter": 18,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 33,
+                "endChapter": 119,
+                "endVerse": 40
+            },
+            {
+                "book": "Acts",
+                "startChapter": 19,
+                "startVerse": 0,
+                "endChapter": 20,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 41,
+                "endChapter": 119,
+                "endVerse": 48
+            },
+            {
+                "book": "Acts",
+                "startChapter": 21,
+                "startVerse": 0,
+                "endChapter": 22,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 49,
+                "endChapter": 119,
+                "endVerse": 56
+            },
+            {
+                "book": "Acts",
+                "startChapter": 23,
+                "startVerse": 0,
+                "endChapter": 24,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 57,
+                "endChapter": 119,
+                "endVerse": 64
+            },
+            {
+                "book": "Acts",
+                "startChapter": 25,
+                "startVerse": 0,
+                "endChapter": 26,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 65,
+                "endChapter": 119,
+                "endVerse": 72
+            },
+            {
+                "book": "Acts",
+                "startChapter": 27,
+                "startVerse": 0,
+                "endChapter": 28,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 73,
+                "endChapter": 119,
+                "endVerse": 80
+            },
+            {
+                "book": "Romans",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 81,
+                "endChapter": 119,
+                "endVerse": 88
+            },
+            {
+                "book": "Romans",
+                "startChapter": 4,
+                "startVerse": 0,
+                "endChapter": 6,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 89,
+                "endChapter": 119,
+                "endVerse": 96
+            },
+            {
+                "book": "Romans",
+                "startChapter": 7,
+                "startVerse": 0,
+                "endChapter": 9,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 97,
+                "endChapter": 119,
+                "endVerse": 104
+            },
+            {
+                "book": "Romans",
+                "startChapter": 10,
+                "startVerse": 0,
+                "endChapter": 13,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 105,
+                "endChapter": 119,
+                "endVerse": 112
+            },
+            {
+                "book": "Romans",
+                "startChapter": 14,
+                "startVerse": 0,
+                "endChapter": 16,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 113,
+                "endChapter": 119,
+                "endVerse": 120
+            },
+            {
+                "book": "1 Corinthians",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 121,
+                "endChapter": 119,
+                "endVerse": 128
+            },
+            {
+                "book": "1 Corinthians",
+                "startChapter": 4,
+                "startVerse": 0,
+                "endChapter": 6,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 129,
+                "endChapter": 119,
+                "endVerse": 136
+            },
+            {
+                "book": "1 Corinthians",
+                "startChapter": 7,
+                "startVerse": 0,
+                "endChapter": 9,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 137,
+                "endChapter": 119,
+                "endVerse": 144
+            },
+            {
+                "book": "1 Corinthians",
+                "startChapter": 10,
+                "startVerse": 0,
+                "endChapter": 11,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 145,
+                "endChapter": 119,
+                "endVerse": 152
+            },
+            {
+                "book": "1 Corinthians",
+                "startChapter": 12,
+                "startVerse": 0,
+                "endChapter": 14,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 153,
+                "endChapter": 119,
+                "endVerse": 160
+            },
+            {
+                "book": "1 Corinthians",
+                "startChapter": 15,
+                "startVerse": 0,
+                "endChapter": 16,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 161,
+                "endChapter": 119,
+                "endVerse": 168
+            },
+            {
+                "book": "2 Corinthians",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 4,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 169,
+                "endChapter": 119,
+                "endVerse": 176
+            },
+            {
+                "book": "2 Corinthians",
+                "startChapter": 5,
+                "startVerse": 0,
+                "endChapter": 7,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 120,
+                "startVerse": 0,
+                "endChapter": 120,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Corinthians",
+                "startChapter": 8,
+                "startVerse": 0,
+                "endChapter": 10,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 121,
+                "startVerse": 0,
+                "endChapter": 121,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Corinthians",
+                "startChapter": 11,
+                "startVerse": 0,
+                "endChapter": 13,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Isaiah",
+                "startChapter": 25,
+                "startVerse": 1,
+                "endChapter": 25,
+                "endVerse": 9
+            },
+            {
+                "book": "Galations",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    }
+]

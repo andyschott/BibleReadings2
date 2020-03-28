@@ -1,0 +1,560 @@
+[
+    {
+        "readings": [
+            {
+                "book": "Deuteronomy",
+                "startChapter": 32,
+                "startVerse": 1,
+                "endChapter": 32,
+                "endVerse": 4
+            },
+            {
+                "book": "1 Samuel",
+                "startChapter": 28,
+                "startVerse": 0,
+                "endChapter": 31,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 29,
+                "startVerse": 0,
+                "endChapter": 29,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Samuel",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 30,
+                "startVerse": 0,
+                "endChapter": 30,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Samuel",
+                "startChapter": 4,
+                "startVerse": 0,
+                "endChapter": 6,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 31,
+                "startVerse": 0,
+                "endChapter": 31,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Samuel",
+                "startChapter": 7,
+                "startVerse": 0,
+                "endChapter": 9,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 32,
+                "startVerse": 0,
+                "endChapter": 32,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Samuel",
+                "startChapter": 10,
+                "startVerse": 0,
+                "endChapter": 12,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 33,
+                "startVerse": 0,
+                "endChapter": 33,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Samuel",
+                "startChapter": 13,
+                "startVerse": 0,
+                "endChapter": 15,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 34,
+                "startVerse": 0,
+                "endChapter": 34,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Samuel",
+                "startChapter": 16,
+                "startVerse": 0,
+                "endChapter": 18,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 35,
+                "startVerse": 0,
+                "endChapter": 35,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Samuel",
+                "startChapter": 19,
+                "startVerse": 0,
+                "endChapter": 21,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 36,
+                "startVerse": 0,
+                "endChapter": 36,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Samuel",
+                "startChapter": 22,
+                "startVerse": 0,
+                "endChapter": 24,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 37,
+                "startVerse": 0,
+                "endChapter": 37,
+                "endVerse": 0
+            },
+            {
+                "book": "1 Kings",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 2,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 38,
+                "startVerse": 0,
+                "endChapter": 38,
+                "endVerse": 0
+            },
+            {
+                "book": "1 Kings",
+                "startChapter": 3,
+                "startVerse": 0,
+                "endChapter": 6,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 39,
+                "startVerse": 0,
+                "endChapter": 39,
+                "endVerse": 0
+            },
+            {
+                "book": "1 Kings",
+                "startChapter": 7,
+                "startVerse": 0,
+                "endChapter": 8,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 40,
+                "startVerse": 0,
+                "endChapter": 40,
+                "endVerse": 0
+            },
+            {
+                "book": "1 Kings",
+                "startChapter": 9,
+                "startVerse": 0,
+                "endChapter": 11,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 41,
+                "startVerse": 0,
+                "endChapter": 41,
+                "endVerse": 0
+            },
+            {
+                "book": "1 Kings",
+                "startChapter": 12,
+                "startVerse": 0,
+                "endChapter": 14,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 42,
+                "startVerse": 0,
+                "endChapter": 42,
+                "endVerse": 0
+            },
+            {
+                "book": "1 Kings",
+                "startChapter": 15,
+                "startVerse": 0,
+                "endChapter": 17,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 43,
+                "startVerse": 0,
+                "endChapter": 43,
+                "endVerse": 0
+            },
+            {
+                "book": "1 Kings",
+                "startChapter": 18,
+                "startVerse": 0,
+                "endChapter": 20,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 44,
+                "startVerse": 0,
+                "endChapter": 44,
+                "endVerse": 0
+            },
+            {
+                "book": "1 Kings",
+                "startChapter": 21,
+                "startVerse": 0,
+                "endChapter": 22,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 45,
+                "startVerse": 0,
+                "endChapter": 45,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Kings",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 46,
+                "startVerse": 0,
+                "endChapter": 46,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Kings",
+                "startChapter": 4,
+                "startVerse": 0,
+                "endChapter": 6,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 47,
+                "startVerse": 0,
+                "endChapter": 47,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Kings",
+                "startChapter": 7,
+                "startVerse": 0,
+                "endChapter": 9,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 48,
+                "startVerse": 0,
+                "endChapter": 48,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Kings",
+                "startChapter": 10,
+                "startVerse": 0,
+                "endChapter": 12,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 49,
+                "startVerse": 0,
+                "endChapter": 49,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Kings",
+                "startChapter": 13,
+                "startVerse": 0,
+                "endChapter": 15,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 50,
+                "startVerse": 0,
+                "endChapter": 50,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Kings",
+                "startChapter": 16,
+                "startVerse": 0,
+                "endChapter": 18,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 51,
+                "startVerse": 0,
+                "endChapter": 51,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Kings",
+                "startChapter": 19,
+                "startVerse": 0,
+                "endChapter": 22,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 52,
+                "startVerse": 0,
+                "endChapter": 52,
+                "endVerse": 0
+            },
+            {
+                "book": "2 Kings",
+                "startChapter": 23,
+                "startVerse": 0,
+                "endChapter": 25,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 53,
+                "startVerse": 0,
+                "endChapter": 53,
+                "endVerse": 0
+            },
+            {
+                "book": "1 Chronicles",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 5,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 54,
+                "startVerse": 0,
+                "endChapter": 54,
+                "endVerse": 0
+            },
+            {
+                "book": "1 Chronicles",
+                "startChapter": 6,
+                "startVerse": 0,
+                "endChapter": 10,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 55,
+                "startVerse": 0,
+                "endChapter": 55,
+                "endVerse": 0
+            },
+            {
+                "book": "1 Chronicles",
+                "startChapter": 11,
+                "startVerse": 0,
+                "endChapter": 15,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 56,
+                "startVerse": 0,
+                "endChapter": 56,
+                "endVerse": 0
+            },
+            {
+                "book": "1 Chronicles",
+                "startChapter": 16,
+                "startVerse": 0,
+                "endChapter": 20,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 57,
+                "startVerse": 0,
+                "endChapter": 57,
+                "endVerse": 0
+            },
+            {
+                "book": "1 Chronicles",
+                "startChapter": 21,
+                "startVerse": 0,
+                "endChapter": 25,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Deuteronomy",
+                "startChapter": 32,
+                "startVerse": 1,
+                "endChapter": 32,
+                "endVerse": 4
+            },
+            {
+                "book": "1 Chronicles",
+                "startChapter": 26,
+                "startVerse": 0,
+                "endChapter": 29,
+                "endVerse": 0
+            }
+        ]
+    }
+]

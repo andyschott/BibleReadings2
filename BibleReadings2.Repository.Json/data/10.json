@@ -1,0 +1,560 @@
+[
+    {
+        "readings": [
+            {
+                "book": "Jonah",
+                "startChapter": 2,
+                "startVerse": 2,
+                "endChapter": 2,
+                "endVerse": 9
+            },
+            {
+                "book": "Jeremiah",
+                "startChapter": 32,
+                "startVerse": 0,
+                "endChapter": 34,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 115,
+                "startVerse": 0,
+                "endChapter": 115,
+                "endVerse": 0
+            },
+            {
+                "book": "Jeremiah",
+                "startChapter": 35,
+                "startVerse": 0,
+                "endChapter": 37,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 116,
+                "startVerse": 0,
+                "endChapter": 116,
+                "endVerse": 0
+            },
+            {
+                "book": "Jeremiah",
+                "startChapter": 38,
+                "startVerse": 0,
+                "endChapter": 40,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 117,
+                "startVerse": 0,
+                "endChapter": 117,
+                "endVerse": 0
+            },
+            {
+                "book": "Jeremiah",
+                "startChapter": 41,
+                "startVerse": 0,
+                "endChapter": 43,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 118,
+                "startVerse": 0,
+                "endChapter": 118,
+                "endVerse": 0
+            },
+            {
+                "book": "Jeremiah",
+                "startChapter": 44,
+                "startVerse": 0,
+                "endChapter": 47,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 1,
+                "endChapter": 119,
+                "endVerse": 8
+            },
+            {
+                "book": "Jeremiah",
+                "startChapter": 48,
+                "startVerse": 0,
+                "endChapter": 50,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 9,
+                "endChapter": 119,
+                "endVerse": 16
+            },
+            {
+                "book": "Jeremiah",
+                "startChapter": 51,
+                "startVerse": 0,
+                "endChapter": 52,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 17,
+                "endChapter": 119,
+                "endVerse": 24
+            },
+            {
+                "book": "Lamentations",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 2,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 25,
+                "endChapter": 119,
+                "endVerse": 32
+            },
+            {
+                "book": "Lamentations",
+                "startChapter": 3,
+                "startVerse": 0,
+                "endChapter": 5,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 33,
+                "endChapter": 119,
+                "endVerse": 40
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 41,
+                "endChapter": 119,
+                "endVerse": 48
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 4,
+                "startVerse": 0,
+                "endChapter": 6,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 49,
+                "endChapter": 119,
+                "endVerse": 56
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 7,
+                "startVerse": 0,
+                "endChapter": 9,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 57,
+                "endChapter": 119,
+                "endVerse": 64
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 10,
+                "startVerse": 0,
+                "endChapter": 12,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 65,
+                "endChapter": 119,
+                "endVerse": 72
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 13,
+                "startVerse": 0,
+                "endChapter": 15,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 73,
+                "endChapter": 119,
+                "endVerse": 80
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 16,
+                "startVerse": 0,
+                "endChapter": 18,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 81,
+                "endChapter": 119,
+                "endVerse": 88
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 19,
+                "startVerse": 0,
+                "endChapter": 21,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 89,
+                "endChapter": 119,
+                "endVerse": 96
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 22,
+                "startVerse": 0,
+                "endChapter": 24,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 97,
+                "endChapter": 119,
+                "endVerse": 104
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 25,
+                "startVerse": 0,
+                "endChapter": 27,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 105,
+                "endChapter": 119,
+                "endVerse": 112
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 28,
+                "startVerse": 0,
+                "endChapter": 30,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 113,
+                "endChapter": 119,
+                "endVerse": 120
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 31,
+                "startVerse": 0,
+                "endChapter": 33,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 121,
+                "endChapter": 119,
+                "endVerse": 128
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 34,
+                "startVerse": 0,
+                "endChapter": 36,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 129,
+                "endChapter": 119,
+                "endVerse": 136
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 37,
+                "startVerse": 0,
+                "endChapter": 39,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 137,
+                "endChapter": 119,
+                "endVerse": 144
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 40,
+                "startVerse": 0,
+                "endChapter": 42,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 145,
+                "endChapter": 119,
+                "endVerse": 152
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 43,
+                "startVerse": 0,
+                "endChapter": 45,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 153,
+                "endChapter": 119,
+                "endVerse": 160
+            },
+            {
+                "book": "Ezekiel",
+                "startChapter": 46,
+                "startVerse": 0,
+                "endChapter": 48,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 161,
+                "endChapter": 119,
+                "endVerse": 168
+            },
+            {
+                "book": "Daniel",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 119,
+                "startVerse": 169,
+                "endChapter": 119,
+                "endVerse": 176
+            },
+            {
+                "book": "Daniel",
+                "startChapter": 4,
+                "startVerse": 0,
+                "endChapter": 6,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 120,
+                "startVerse": 0,
+                "endChapter": 120,
+                "endVerse": 0
+            },
+            {
+                "book": "Daniel",
+                "startChapter": 7,
+                "startVerse": 0,
+                "endChapter": 9,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 121,
+                "startVerse": 0,
+                "endChapter": 121,
+                "endVerse": 0
+            },
+            {
+                "book": "Daniel",
+                "startChapter": 10,
+                "startVerse": 0,
+                "endChapter": 12,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 122,
+                "startVerse": 0,
+                "endChapter": 122,
+                "endVerse": 0
+            },
+            {
+                "book": "Hosea",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 4,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Jonah",
+                "startChapter": 2,
+                "startVerse": 2,
+                "endChapter": 2,
+                "endVerse": 9
+            },
+            {
+                "book": "Hosea",
+                "startChapter": 5,
+                "startVerse": 0,
+                "endChapter": 7,
+                "endVerse": 0
+            }
+        ]
+    }
+]

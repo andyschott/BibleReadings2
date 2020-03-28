@@ -1,0 +1,517 @@
+[
+    {
+        "readings": [
+            {
+                "book": "Luke",
+                "startChapter": 2,
+                "startVerse": 29,
+                "endChapter": 2,
+                "endVerse": 32
+            },
+            {
+                "book": "Exodus",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 59,
+                "startVerse": 0,
+                "endChapter": 59,
+                "endVerse": 0
+            },
+            {
+                "book": "Exodus",
+                "startChapter": 4,
+                "startVerse": 0,
+                "endChapter": 6,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 60,
+                "startVerse": 0,
+                "endChapter": 60,
+                "endVerse": 0
+            },
+            {
+                "book": "Exodus",
+                "startChapter": 7,
+                "startVerse": 0,
+                "endChapter": 9,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 61,
+                "startVerse": 0,
+                "endChapter": 61,
+                "endVerse": 0
+            },
+            {
+                "book": "Exodus",
+                "startChapter": 10,
+                "startVerse": 0,
+                "endChapter": 12,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 62,
+                "startVerse": 0,
+                "endChapter": 62,
+                "endVerse": 0
+            },
+            {
+                "book": "Exodus",
+                "startChapter": 13,
+                "startVerse": 0,
+                "endChapter": 15,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 63,
+                "startVerse": 0,
+                "endChapter": 63,
+                "endVerse": 0
+            },
+            {
+                "book": "Exodus",
+                "startChapter": 16,
+                "startVerse": 0,
+                "endChapter": 18,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 64,
+                "startVerse": 0,
+                "endChapter": 64,
+                "endVerse": 0
+            },
+            {
+                "book": "Exodus",
+                "startChapter": 19,
+                "startVerse": 0,
+                "endChapter": 21,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 65,
+                "startVerse": 0,
+                "endChapter": 65,
+                "endVerse": 0
+            },
+            {
+                "book": "Exodus",
+                "startChapter": 22,
+                "startVerse": 0,
+                "endChapter": 24,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 66,
+                "startVerse": 0,
+                "endChapter": 66,
+                "endVerse": 0
+            },
+            {
+                "book": "Exodus",
+                "startChapter": 25,
+                "startVerse": 0,
+                "endChapter": 27,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 67,
+                "startVerse": 0,
+                "endChapter": 67,
+                "endVerse": 0
+            },
+            {
+                "book": "Exodus",
+                "startChapter": 28,
+                "startVerse": 0,
+                "endChapter": 30,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 68,
+                "startVerse": 0,
+                "endChapter": 68,
+                "endVerse": 0
+            },
+            {
+                "book": "Exodus",
+                "startChapter": 31,
+                "startVerse": 0,
+                "endChapter": 33,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 69,
+                "startVerse": 0,
+                "endChapter": 69,
+                "endVerse": 0
+            },
+            {
+                "book": "Exodus",
+                "startChapter": 34,
+                "startVerse": 0,
+                "endChapter": 36,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 70,
+                "startVerse": 0,
+                "endChapter": 70,
+                "endVerse": 0
+            },
+            {
+                "book": "Exodus",
+                "startChapter": 37,
+                "startVerse": 0,
+                "endChapter": 38,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 71,
+                "startVerse": 0,
+                "endChapter": 71,
+                "endVerse": 0
+            },
+            {
+                "book": "Exodus",
+                "startChapter": 39,
+                "startVerse": 0,
+                "endChapter": 40,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 72,
+                "startVerse": 0,
+                "endChapter": 72,
+                "endVerse": 0
+            },
+            {
+                "book": "Leviticus",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 73,
+                "startVerse": 0,
+                "endChapter": 73,
+                "endVerse": 0
+            },
+            {
+                "book": "Leviticus",
+                "startChapter": 4,
+                "startVerse": 0,
+                "endChapter": 6,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 74,
+                "startVerse": 0,
+                "endChapter": 74,
+                "endVerse": 0
+            },
+            {
+                "book": "Leviticus",
+                "startChapter": 7,
+                "startVerse": 0,
+                "endChapter": 9,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 75,
+                "startVerse": 0,
+                "endChapter": 75,
+                "endVerse": 0
+            },
+            {
+                "book": "Leviticus",
+                "startChapter": 10,
+                "startVerse": 0,
+                "endChapter": 12,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 76,
+                "startVerse": 0,
+                "endChapter": 76,
+                "endVerse": 0
+            },
+            {
+                "book": "Leviticus",
+                "startChapter": 13,
+                "startVerse": 0,
+                "endChapter": 15,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 77,
+                "startVerse": 0,
+                "endChapter": 77,
+                "endVerse": 0
+            },
+            {
+                "book": "Leviticus",
+                "startChapter": 16,
+                "startVerse": 0,
+                "endChapter": 18,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 78,
+                "startVerse": 0,
+                "endChapter": 78,
+                "endVerse": 0
+            },
+            {
+                "book": "Leviticus",
+                "startChapter": 19,
+                "startVerse": 0,
+                "endChapter": 21,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 79,
+                "startVerse": 0,
+                "endChapter": 79,
+                "endVerse": 0
+            },
+            {
+                "book": "Leviticus",
+                "startChapter": 22,
+                "startVerse": 0,
+                "endChapter": 24,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 80,
+                "startVerse": 0,
+                "endChapter": 80,
+                "endVerse": 0
+            },
+            {
+                "book": "Leviticus",
+                "startChapter": 25,
+                "startVerse": 0,
+                "endChapter": 27,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 81,
+                "startVerse": 0,
+                "endChapter": 81,
+                "endVerse": 0
+            },
+            {
+                "book": "Numbers",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 82,
+                "startVerse": 0,
+                "endChapter": 82,
+                "endVerse": 0
+            },
+            {
+                "book": "Numbers",
+                "startChapter": 4,
+                "startVerse": 0,
+                "endChapter": 6,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 83,
+                "startVerse": 0,
+                "endChapter": 83,
+                "endVerse": 0
+            },
+            {
+                "book": "Numbers",
+                "startChapter": 7,
+                "startVerse": 0,
+                "endChapter": 9,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 84,
+                "startVerse": 0,
+                "endChapter": 84,
+                "endVerse": 0
+            },
+            {
+                "book": "Numbers",
+                "startChapter": 10,
+                "startVerse": 0,
+                "endChapter": 12,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 85,
+                "startVerse": 0,
+                "endChapter": 85,
+                "endVerse": 0
+            },
+            {
+                "book": "Numbers",
+                "startChapter": 13,
+                "startVerse": 0,
+                "endChapter": 15,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Luke",
+                "startChapter": 2,
+                "startVerse": 29,
+                "endChapter": 2,
+                "endVerse": 32
+            }
+        ]
+    }
+]

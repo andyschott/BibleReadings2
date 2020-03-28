@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibleReadings2.Repository",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibleReadings2.Repository.Json", "BibleReadings2.Repository.Json\BibleReadings2.Repository.Json.csproj", "{29AA4B2E-6E4D-431C-87C1-49C8DD1FF5F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibleReadings2.Repository.Json.Test", "BibleReadings2.Repository.Json.Test\BibleReadings2.Repository.Json.Test.csproj", "{6AEBCA12-80A9-4DD4-BA98-F88BDB7E3831}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{29AA4B2E-6E4D-431C-87C1-49C8DD1FF5F6}.Release|x64.Build.0 = Release|Any CPU
 		{29AA4B2E-6E4D-431C-87C1-49C8DD1FF5F6}.Release|x86.ActiveCfg = Release|Any CPU
 		{29AA4B2E-6E4D-431C-87C1-49C8DD1FF5F6}.Release|x86.Build.0 = Release|Any CPU
+		{6AEBCA12-80A9-4DD4-BA98-F88BDB7E3831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEBCA12-80A9-4DD4-BA98-F88BDB7E3831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEBCA12-80A9-4DD4-BA98-F88BDB7E3831}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6AEBCA12-80A9-4DD4-BA98-F88BDB7E3831}.Debug|x64.Build.0 = Debug|Any CPU
+		{6AEBCA12-80A9-4DD4-BA98-F88BDB7E3831}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6AEBCA12-80A9-4DD4-BA98-F88BDB7E3831}.Debug|x86.Build.0 = Debug|Any CPU
+		{6AEBCA12-80A9-4DD4-BA98-F88BDB7E3831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEBCA12-80A9-4DD4-BA98-F88BDB7E3831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEBCA12-80A9-4DD4-BA98-F88BDB7E3831}.Release|x64.ActiveCfg = Release|Any CPU
+		{6AEBCA12-80A9-4DD4-BA98-F88BDB7E3831}.Release|x64.Build.0 = Release|Any CPU
+		{6AEBCA12-80A9-4DD4-BA98-F88BDB7E3831}.Release|x86.ActiveCfg = Release|Any CPU
+		{6AEBCA12-80A9-4DD4-BA98-F88BDB7E3831}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

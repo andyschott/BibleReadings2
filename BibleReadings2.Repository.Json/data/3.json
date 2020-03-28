@@ -1,0 +1,560 @@
+[
+    {
+        "readings": [
+            {
+                "book": "Isaiah",
+                "startChapter": 64,
+                "startVerse": 1,
+                "endChapter": 64,
+                "endVerse": 9
+            },
+            {
+                "book": "Numbers",
+                "startChapter": 16,
+                "startVerse": 0,
+                "endChapter": 18,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 86,
+                "startVerse": 0,
+                "endChapter": 86,
+                "endVerse": 0
+            },
+            {
+                "book": "Numbers",
+                "startChapter": 19,
+                "startVerse": 0,
+                "endChapter": 21,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 87,
+                "startVerse": 0,
+                "endChapter": 87,
+                "endVerse": 0
+            },
+            {
+                "book": "Numbers",
+                "startChapter": 22,
+                "startVerse": 0,
+                "endChapter": 24,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 88,
+                "startVerse": 0,
+                "endChapter": 88,
+                "endVerse": 0
+            },
+            {
+                "book": "Numbers",
+                "startChapter": 25,
+                "startVerse": 0,
+                "endChapter": 27,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 89,
+                "startVerse": 0,
+                "endChapter": 89,
+                "endVerse": 0
+            },
+            {
+                "book": "Numbers",
+                "startChapter": 28,
+                "startVerse": 0,
+                "endChapter": 30,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 90,
+                "startVerse": 0,
+                "endChapter": 90,
+                "endVerse": 0
+            },
+            {
+                "book": "Numbers",
+                "startChapter": 31,
+                "startVerse": 0,
+                "endChapter": 33,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 91,
+                "startVerse": 0,
+                "endChapter": 91,
+                "endVerse": 0
+            },
+            {
+                "book": "Numbers",
+                "startChapter": 34,
+                "startVerse": 0,
+                "endChapter": 36,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 92,
+                "startVerse": 0,
+                "endChapter": 92,
+                "endVerse": 0
+            },
+            {
+                "book": "Deuteronomy",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 93,
+                "startVerse": 0,
+                "endChapter": 93,
+                "endVerse": 0
+            },
+            {
+                "book": "Deuteronomy",
+                "startChapter": 4,
+                "startVerse": 0,
+                "endChapter": 6,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 94,
+                "startVerse": 0,
+                "endChapter": 94,
+                "endVerse": 0
+            },
+            {
+                "book": "Deuteronomy",
+                "startChapter": 7,
+                "startVerse": 0,
+                "endChapter": 9,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 95,
+                "startVerse": 0,
+                "endChapter": 95,
+                "endVerse": 0
+            },
+            {
+                "book": "Deuteronomy",
+                "startChapter": 10,
+                "startVerse": 0,
+                "endChapter": 12,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 96,
+                "startVerse": 0,
+                "endChapter": 96,
+                "endVerse": 0
+            },
+            {
+                "book": "Deuteronomy",
+                "startChapter": 13,
+                "startVerse": 0,
+                "endChapter": 15,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 97,
+                "startVerse": 0,
+                "endChapter": 97,
+                "endVerse": 0
+            },
+            {
+                "book": "Deuteronomy",
+                "startChapter": 16,
+                "startVerse": 0,
+                "endChapter": 18,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 98,
+                "startVerse": 0,
+                "endChapter": 98,
+                "endVerse": 0
+            },
+            {
+                "book": "Deuteronomy",
+                "startChapter": 19,
+                "startVerse": 0,
+                "endChapter": 21,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 99,
+                "startVerse": 0,
+                "endChapter": 99,
+                "endVerse": 0
+            },
+            {
+                "book": "Deuteronomy",
+                "startChapter": 22,
+                "startVerse": 0,
+                "endChapter": 24,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 100,
+                "startVerse": 0,
+                "endChapter": 100,
+                "endVerse": 0
+            },
+            {
+                "book": "Deuteronomy",
+                "startChapter": 25,
+                "startVerse": 0,
+                "endChapter": 27,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 101,
+                "startVerse": 0,
+                "endChapter": 101,
+                "endVerse": 0
+            },
+            {
+                "book": "Deuteronomy",
+                "startChapter": 28,
+                "startVerse": 0,
+                "endChapter": 30,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 102,
+                "startVerse": 0,
+                "endChapter": 102,
+                "endVerse": 0
+            },
+            {
+                "book": "Deuteronomy",
+                "startChapter": 31,
+                "startVerse": 0,
+                "endChapter": 34,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 103,
+                "startVerse": 0,
+                "endChapter": 103,
+                "endVerse": 0
+            },
+            {
+                "book": "Luke",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 1,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 104,
+                "startVerse": 0,
+                "endChapter": 104,
+                "endVerse": 0
+            },
+            {
+                "book": "Luke",
+                "startChapter": 2,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 105,
+                "startVerse": 0,
+                "endChapter": 105,
+                "endVerse": 0
+            },
+            {
+                "book": "Luke",
+                "startChapter": 4,
+                "startVerse": 0,
+                "endChapter": 5,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 106,
+                "startVerse": 0,
+                "endChapter": 106,
+                "endVerse": 0
+            },
+            {
+                "book": "Luke",
+                "startChapter": 6,
+                "startVerse": 0,
+                "endChapter": 7,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 107,
+                "startVerse": 0,
+                "endChapter": 107,
+                "endVerse": 0
+            },
+            {
+                "book": "Luke",
+                "startChapter": 8,
+                "startVerse": 0,
+                "endChapter": 9,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 108,
+                "startVerse": 0,
+                "endChapter": 108,
+                "endVerse": 0
+            },
+            {
+                "book": "Luke",
+                "startChapter": 10,
+                "startVerse": 0,
+                "endChapter": 11,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 109,
+                "startVerse": 0,
+                "endChapter": 109,
+                "endVerse": 0
+            },
+            {
+                "book": "Luke",
+                "startChapter": 12,
+                "startVerse": 0,
+                "endChapter": 13,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 110,
+                "startVerse": 0,
+                "endChapter": 110,
+                "endVerse": 0
+            },
+            {
+                "book": "Luke",
+                "startChapter": 14,
+                "startVerse": 0,
+                "endChapter": 15,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 111,
+                "startVerse": 0,
+                "endChapter": 111,
+                "endVerse": 0
+            },
+            {
+                "book": "Luke",
+                "startChapter": 16,
+                "startVerse": 0,
+                "endChapter": 17,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 112,
+                "startVerse": 0,
+                "endChapter": 112,
+                "endVerse": 0
+            },
+            {
+                "book": "Luke",
+                "startChapter": 18,
+                "startVerse": 0,
+                "endChapter": 19,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 113,
+                "startVerse": 0,
+                "endChapter": 113,
+                "endVerse": 0
+            },
+            {
+                "book": "Luke",
+                "startChapter": 20,
+                "startVerse": 0,
+                "endChapter": 21,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 114,
+                "startVerse": 0,
+                "endChapter": 114,
+                "endVerse": 0
+            },
+            {
+                "book": "Luke",
+                "startChapter": 22,
+                "startVerse": 0,
+                "endChapter": 22,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Isaiah",
+                "startChapter": 64,
+                "startVerse": 1,
+                "endChapter": 64,
+                "endVerse": 9
+            },
+            {
+                "book": "Luke",
+                "startChapter": 23,
+                "startVerse": 0,
+                "endChapter": 24,
+                "endVerse": 0
+            }
+        ]
+    }
+]

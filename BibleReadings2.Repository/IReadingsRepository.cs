@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace BibleReadings2.Repository
 {
     public interface IReadingsRepository
     {
-        Day GetReadings(int month, int year);
+        Task<Day> GetReadings(int month, int day);
     }
 }

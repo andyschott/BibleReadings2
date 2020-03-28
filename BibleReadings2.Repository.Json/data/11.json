@@ -1,0 +1,549 @@
+[
+    {
+        "readings": [
+            {
+                "book": "Exodus",
+                "startChapter": 15,
+                "startVerse": 1,
+                "endChapter": 15,
+                "endVerse": 18
+            },
+            {
+                "book": "Hosea",
+                "startChapter": 8,
+                "startVerse": 0,
+                "endChapter": 10,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 123,
+                "startVerse": 0,
+                "endChapter": 123,
+                "endVerse": 0
+            },
+            {
+                "book": "Hosea",
+                "startChapter": 11,
+                "startVerse": 0,
+                "endChapter": 14,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 124,
+                "startVerse": 0,
+                "endChapter": 124,
+                "endVerse": 0
+            },
+            {
+                "book": "Joel",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 125,
+                "startVerse": 0,
+                "endChapter": 125,
+                "endVerse": 0
+            },
+            {
+                "book": "Amos",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 5,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 126,
+                "startVerse": 0,
+                "endChapter": 126,
+                "endVerse": 0
+            },
+            {
+                "book": "Amos",
+                "startChapter": 6,
+                "startVerse": 0,
+                "endChapter": 9,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 127,
+                "startVerse": 0,
+                "endChapter": 127,
+                "endVerse": 0
+            },
+            {
+                "book": "Obadiah",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 1,
+                "endVerse": 0
+            },
+            {
+                "book": "Jonah",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 4,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 128,
+                "startVerse": 0,
+                "endChapter": 128,
+                "endVerse": 0
+            },
+            {
+                "book": "Micah",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 129,
+                "startVerse": 0,
+                "endChapter": 129,
+                "endVerse": 0
+            },
+            {
+                "book": "Micah",
+                "startChapter": 4,
+                "startVerse": 0,
+                "endChapter": 7,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 130,
+                "startVerse": 0,
+                "endChapter": 130,
+                "endVerse": 0
+            },
+            {
+                "book": "Nahum",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 131,
+                "startVerse": 0,
+                "endChapter": 131,
+                "endVerse": 0
+            },
+            {
+                "book": "Habakkuk",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 132,
+                "startVerse": 0,
+                "endChapter": 132,
+                "endVerse": 0
+            },
+            {
+                "book": "Zephaniah",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 3,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 133,
+                "startVerse": 0,
+                "endChapter": 133,
+                "endVerse": 0
+            },
+            {
+                "book": "Haggai",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 2,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 134,
+                "startVerse": 0,
+                "endChapter": 134,
+                "endVerse": 0
+            },
+            {
+                "book": "Zechariah",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 5,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 135,
+                "startVerse": 0,
+                "endChapter": 135,
+                "endVerse": 0
+            },
+            {
+                "book": "Zechariah",
+                "startChapter": 6,
+                "startVerse": 0,
+                "endChapter": 10,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 136,
+                "startVerse": 0,
+                "endChapter": 136,
+                "endVerse": 0
+            },
+            {
+                "book": "Zechariah",
+                "startChapter": 11,
+                "startVerse": 0,
+                "endChapter": 14,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 137,
+                "startVerse": 0,
+                "endChapter": 137,
+                "endVerse": 0
+            },
+            {
+                "book": "Malachi",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 4,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 138,
+                "startVerse": 0,
+                "endChapter": 138,
+                "endVerse": 0
+            },
+            {
+                "book": "Matthew",
+                "startChapter": 1,
+                "startVerse": 0,
+                "endChapter": 2,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 139,
+                "startVerse": 0,
+                "endChapter": 139,
+                "endVerse": 0
+            },
+            {
+                "book": "Matthew",
+                "startChapter": 3,
+                "startVerse": 0,
+                "endChapter": 4,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 140,
+                "startVerse": 0,
+                "endChapter": 140,
+                "endVerse": 0
+            },
+            {
+                "book": "Matthew",
+                "startChapter": 5,
+                "startVerse": 0,
+                "endChapter": 6,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 141,
+                "startVerse": 0,
+                "endChapter": 141,
+                "endVerse": 0
+            },
+            {
+                "book": "Matthew",
+                "startChapter": 7,
+                "startVerse": 0,
+                "endChapter": 8,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 142,
+                "startVerse": 0,
+                "endChapter": 142,
+                "endVerse": 0
+            },
+            {
+                "book": "Matthew",
+                "startChapter": 9,
+                "startVerse": 0,
+                "endChapter": 10,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 143,
+                "startVerse": 0,
+                "endChapter": 143,
+                "endVerse": 0
+            },
+            {
+                "book": "Matthew",
+                "startChapter": 11,
+                "startVerse": 0,
+                "endChapter": 12,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 144,
+                "startVerse": 0,
+                "endChapter": 144,
+                "endVerse": 0
+            },
+            {
+                "book": "Matthew",
+                "startChapter": 13,
+                "startVerse": 0,
+                "endChapter": 14,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 145,
+                "startVerse": 0,
+                "endChapter": 145,
+                "endVerse": 0
+            },
+            {
+                "book": "Matthew",
+                "startChapter": 15,
+                "startVerse": 0,
+                "endChapter": 16,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 146,
+                "startVerse": 0,
+                "endChapter": 146,
+                "endVerse": 0
+            },
+            {
+                "book": "Matthew",
+                "startChapter": 17,
+                "startVerse": 0,
+                "endChapter": 18,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 147,
+                "startVerse": 0,
+                "endChapter": 147,
+                "endVerse": 0
+            },
+            {
+                "book": "Matthew",
+                "startChapter": 19,
+                "startVerse": 0,
+                "endChapter": 20,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 148,
+                "startVerse": 0,
+                "endChapter": 148,
+                "endVerse": 0
+            },
+            {
+                "book": "Matthew",
+                "startChapter": 21,
+                "startVerse": 0,
+                "endChapter": 22,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 149,
+                "startVerse": 0,
+                "endChapter": 149,
+                "endVerse": 0
+            },
+            {
+                "book": "Matthew",
+                "startChapter": 23,
+                "startVerse": 0,
+                "endChapter": 24,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Psalm",
+                "startChapter": 150,
+                "startVerse": 0,
+                "endChapter": 150,
+                "endVerse": 0
+            },
+            {
+                "book": "Matthew",
+                "startChapter": 25,
+                "startVerse": 0,
+                "endChapter": 26,
+                "endVerse": 0
+            }
+        ]
+    },
+    {
+        "readings": [
+            {
+                "book": "Exodus",
+                "startChapter": 15,
+                "startVerse": 1,
+                "endChapter": 15,
+                "endVerse": 18
+            },
+            {
+                "book": "Matthew",
+                "startChapter": 27,
+                "startVerse": 0,
+                "endChapter": 28,
+                "endVerse": 0
+            }
+        ]
+    }
+]
