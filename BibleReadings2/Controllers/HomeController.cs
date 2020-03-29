@@ -14,14 +14,17 @@ namespace BibleReadings2.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly IReadingsRepository _readingsRepo;
         private readonly ITranslationsRepository _translationsRepo;
+        private readonly IReaderRepository _readerRepo;
 
         public HomeController(ILogger<HomeController> logger, 
             IReadingsRepository readingsRepo,
-            ITranslationsRepository translationsRepo)
+            ITranslationsRepository translationsRepo,
+            IReaderRepository readerRepo)
         {
             _logger = logger;
             _readingsRepo = readingsRepo;
             _translationsRepo = translationsRepo;
+            _readerRepo = readerRepo;
         }
 
         [HttpGet]
@@ -45,11 +48,12 @@ namespace BibleReadings2.Controllers
             var readingsTask = _readingsRepo.GetReadings(date.Month, date.Day);
             var englishTask = _translationsRepo.GetTranslations(Languages.English);
             var germanTask = _translationsRepo.GetTranslations(Languages.German);
+            var readerTask = _readerRepo.GetReader();
 
             HttpContext.Request.Cookies.TryGetValue("english", out var english);
             HttpContext.Request.Cookies.TryGetValue("german", out var german);            
 
-            await Task.WhenAll(readingsTask, englishTask, germanTask);
+            await Task.WhenAll(readingsTask, englishTask, germanTask, readerTask);
 
             var model = new ReadingsViewModel
             {
@@ -57,6 +61,7 @@ namespace BibleReadings2.Controllers
                 Readings = readingsTask.Result.Readings.Select(reading => new ReadingViewModel(reading, english, german)),
                 English = english,
                 German = german,
+                LastReader = readerTask.Result,
             };
 
             return View(model);

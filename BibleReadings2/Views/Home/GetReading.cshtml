@@ -25,4 +25,16 @@
                 asp-route-day="@Model.Next.Day">Next &gt;&gt;</a>
         </div>
     </div>
+    <div class="row mt-3">
+        <div class="col">
+            <p id="reader">@BibleReadings2.Helpers.Utilities.BuildReaderDescription(Model.LastReader)</p>
+            <p>
+                <select id="readerSelect">
+                    <option selected value="">Who read first today?</option>
+                    <option value="Andy">Andy</option>
+                    <option value="Melissa">Melissa</option>
+                </select>
+            </p>
+        </div>
+    </div>
 </div>

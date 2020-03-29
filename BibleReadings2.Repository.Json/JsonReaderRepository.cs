@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -14,6 +15,7 @@ namespace BibleReadings2.Repository.Json
 
         public JsonReaderRepository(string filePath)
         {
+            var cwd = Directory.GetCurrentDirectory();
             _filePath = filePath;
         }
 
@@ -25,21 +27,28 @@ namespace BibleReadings2.Repository.Json
             }
 
             using var stream = new FileStream(_filePath, FileMode.Open);
-            var reader = await JsonSerializer.DeserializeAsync<Reader>(stream, _options);
+            try
+            {
+                var reader = await JsonSerializer.DeserializeAsync<Reader>(stream, _options);
 
-            return reader;
+                return reader;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
 
-        public Task SaveReader(Reader reader)
+        public async Task SaveReader(Reader reader)
         {
             var dir = Path.GetDirectoryName(_filePath);
             if(!Directory.Exists(dir))
             {
                 Directory.CreateDirectory(dir);
             }
-            
+
             using var stream = new FileStream(_filePath, FileMode.Create);
-            return JsonSerializer.SerializeAsync(stream, reader, _options);
+            await JsonSerializer.SerializeAsync(stream, reader, _options);
         }
     }
 }

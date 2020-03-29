@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using BibleReadings2.Helpers;
+using BibleReadings2.Repository;
 
 namespace BibleReadings2.Models
 {
@@ -15,6 +16,8 @@ namespace BibleReadings2.Models
 
         public string English { get; set; } = string.Empty;
         public string German { get; set; } = string.Empty;
+
+        public Reader? LastReader { get; set; }
 
         public IEnumerable<ReadingViewModel> Readings { get; set; } = Enumerable.Empty<ReadingViewModel>();
 
