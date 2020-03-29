@@ -13,11 +13,15 @@ namespace BibleReadings2.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IReadingsRepository _readingsRepo;
+        private readonly ITranslationsRepository _translationsRepo;
 
-        public HomeController(ILogger<HomeController> logger, IReadingsRepository readingsRepo)
+        public HomeController(ILogger<HomeController> logger, 
+            IReadingsRepository readingsRepo,
+            ITranslationsRepository translationsRepo)
         {
             _logger = logger;
             _readingsRepo = readingsRepo;
+            _translationsRepo = translationsRepo;
         }
 
         [HttpGet]
@@ -38,17 +42,55 @@ namespace BibleReadings2.Controllers
         public async Task<IActionResult> GetReading(int year, int month, int day)
         {
             var date = new DateTime(year, month, day);
-            var readings = await _readingsRepo.GetReadings(date.Month, date.Day);
+            var readingsTask = _readingsRepo.GetReadings(date.Month, date.Day);
+            var englishTask = _translationsRepo.GetTranslations(Languages.English);
+            var germanTask = _translationsRepo.GetTranslations(Languages.German);
+
+            await Task.WhenAll(readingsTask, englishTask, germanTask);
 
             var model = new ReadingsViewModel
             {
                 Date = date,
-                Readings = readings.Readings.Select(reading => new ReadingViewModel(reading)),
+                Readings = readingsTask.Result.Readings.Select(reading => new ReadingViewModel(reading)),
             };
 
             return View(model);
         }
         
+        [HttpGet("/settings")]
+        public async Task<IActionResult> Settings()
+        {
+            var englishTask = _translationsRepo.GetTranslations(Languages.English);
+            var germanTask = _translationsRepo.GetTranslations(Languages.German);
+
+            await Task.WhenAll(englishTask, germanTask);
+
+            var model = new SettingsViewModel
+            {
+                EnglishTranslations = new TranslationViewModel
+                {
+                    Language = Languages.English,
+                    Translations =  englishTask.Result,
+                },
+                GermanTranslations = new TranslationViewModel
+                {
+                    Language = Languages.German,
+                    Translations = germanTask.Result,
+                },
+            };
+
+            return View(model);
+        }
+
+        [HttpPost("/settings")]
+        public IActionResult SaveSettings(string english, string german)
+        {
+            HttpContext.Response.Cookies.Append("english", english);
+            HttpContext.Response.Cookies.Append("german", german);
+            
+            var url = Url.Action("Index");
+            return Redirect(url);
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

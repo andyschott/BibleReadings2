@@ -1,21 +1,28 @@
 ﻿@model ReadingsViewModel
 
 @{
-    ViewData["Title"] = "Today's Readings";
+    ViewData["Title"] = "Readings";
 }
 
-@await Html.PartialAsync("ReadingsPartial", Model)
-
-<p>
-    <a asp-action="GetReading" asp-controller="Home"
-        asp-route-year="@Model.Previous.Year"
-        asp-route-month="@Model.Previous.Month"
-        asp-route-day="@Model.Previous.Day">&lt;&lt; Previous</a>
-    |
-    <a asp-action="Index" asp-controller="Home">Today</a>
-    |
-    <a asp-action="GetReading" asp-controller="Home"
-        asp-route-year="@Model.Next.Year"
-        asp-route-month="@Model.Next.Month"
-        asp-route-day="@Model.Next.Day">Next &gt;&gt;</a>
-</p>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            @await Html.PartialAsync("ReadingsPartial", Model)
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <a asp-action="GetReading" asp-controller="Home"
+                asp-route-year="@Model.Previous.Year"
+                asp-route-month="@Model.Previous.Month"
+                asp-route-day="@Model.Previous.Day">&lt;&lt; Previous</a>
+            |
+            <a asp-action="Index" asp-controller="Home">Today</a>
+            |
+            <a asp-action="GetReading" asp-controller="Home"
+                asp-route-year="@Model.Next.Year"
+                asp-route-month="@Model.Next.Month"
+                asp-route-day="@Model.Next.Day">Next &gt;&gt;</a>
+        </div>
+    </div>
+</div>

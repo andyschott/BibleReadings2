@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using BibleReadings2.Helpers;
+using BibleReadings2.Repository;
 
 namespace BibleReadings2.Models
 {
