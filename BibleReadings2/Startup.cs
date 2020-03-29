@@ -26,7 +26,7 @@ namespace BibleReadings2
                     config.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
                 });
 
-            services.AddJsonRepository();
+            services.AddJsonRepository(Configuration["ReaderPath"]);
 
             services.AddSwaggerGen(config =>
             {
