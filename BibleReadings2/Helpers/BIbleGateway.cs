@@ -30,9 +30,12 @@ namespace BibleReadings2.Helpers
             return $"{reading.Book} {reading.StartChapter}:{reading.StartVerse} - {reading.EndChapter}:{reading.EndVerse}";
         }
 
-        public static string BuildReadingUrl(Reading reading) => BaseUrl + BuildReadingText(reading);
+        public static string BuildReadingUrl(Reading reading, string english, string german)
+        {
+            return BaseUrl + BuildReadingText(reading) + GetTranslationQueryString(english, german);
+        }
 
-        public static string BuildAllReadingsUrl(IEnumerable<Reading> readings)
+        public static string BuildAllReadingsUrl(IEnumerable<Reading> readings, string english, string german)
         {
             if(!readings.Any())
             {
@@ -40,7 +43,18 @@ namespace BibleReadings2.Helpers
             }
 
             var readingTexts = readings.Select(reading => BuildReadingText(reading));
-            return BaseUrl + string.Join(';', readingTexts);
+            return BaseUrl + string.Join(';', readingTexts) + GetTranslationQueryString(english, german);
+        }
+
+        private static string GetTranslationQueryString(string english, string german)
+        {
+            var translations = new[] { english, german }.Where(translation => !string.IsNullOrEmpty(translation));
+            if(!translations.Any())
+            {
+                return string.Empty;
+            }
+
+            return $"&version={string.Join(';', translations)}";
         }
     }
 }

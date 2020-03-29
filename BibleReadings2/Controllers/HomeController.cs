@@ -46,12 +46,17 @@ namespace BibleReadings2.Controllers
             var englishTask = _translationsRepo.GetTranslations(Languages.English);
             var germanTask = _translationsRepo.GetTranslations(Languages.German);
 
+            HttpContext.Request.Cookies.TryGetValue("english", out var english);
+            HttpContext.Request.Cookies.TryGetValue("german", out var german);            
+
             await Task.WhenAll(readingsTask, englishTask, germanTask);
 
             var model = new ReadingsViewModel
             {
                 Date = date,
-                Readings = readingsTask.Result.Readings.Select(reading => new ReadingViewModel(reading)),
+                Readings = readingsTask.Result.Readings.Select(reading => new ReadingViewModel(reading, english, german)),
+                English = english,
+                German = german,
             };
 
             return View(model);
