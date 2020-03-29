@@ -65,17 +65,22 @@ namespace BibleReadings2.Controllers
 
             await Task.WhenAll(englishTask, germanTask);
 
+            HttpContext.Request.Cookies.TryGetValue("english", out var english);
+            HttpContext.Request.Cookies.TryGetValue("german", out var german);            
+
             var model = new SettingsViewModel
             {
                 EnglishTranslations = new TranslationViewModel
                 {
                     Language = Languages.English,
                     Translations =  englishTask.Result,
+                    SelectedTranslation = english,
                 },
                 GermanTranslations = new TranslationViewModel
                 {
                     Language = Languages.German,
                     Translations = germanTask.Result,
+                    SelectedTranslation = german
                 },
             };
 
@@ -85,9 +90,9 @@ namespace BibleReadings2.Controllers
         [HttpPost("/settings")]
         public IActionResult SaveSettings(string english, string german)
         {
-            HttpContext.Response.Cookies.Append("english", english);
-            HttpContext.Response.Cookies.Append("german", german);
-            
+            HttpContext.Response.Cookies.Append("english", english ?? string.Empty);
+            HttpContext.Response.Cookies.Append("german", german ?? string.Empty);
+
             var url = Url.Action("Index");
             return Redirect(url);
         }

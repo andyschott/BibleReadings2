@@ -3,7 +3,7 @@
 <div>
     <span>@Model.Language:</span>
     <br>
-    <select id="@Model.Language" name="@Model.Language"
+    <select id="@Model.Language" name="@Model.Language" asp-for="SelectedTranslation"
         asp-items="@(new SelectList(@Model.Translations, "ShortName", "Name"))">
     </select>
 </div>
