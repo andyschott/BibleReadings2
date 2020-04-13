@@ -9,10 +9,8 @@ namespace BibleReadings2.Models
 {
     public class ReadingsViewModel
     {
-        private static readonly DateTimeFormatInfo _dateFormat = new CultureInfo("en-US").DateTimeFormat;
-        
         public DateTime Date { get; set; }
-        public string DateString => Date.ToString(_dateFormat.LongDatePattern);
+        public string DateString => Date.ToString("dddd, MMMM d");
 
         public DateTime Next => Date.AddDays(1);
         public DateTime Previous => Date.AddDays(-1);
