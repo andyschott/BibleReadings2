@@ -6,6 +6,7 @@ using BibleReadings2.Repository;
 using System.Threading.Tasks;
 using System;
 using System.Linq;
+using Microsoft.AspNetCore.Http;
 
 namespace BibleReadings2.Controllers
 {
@@ -15,6 +16,12 @@ namespace BibleReadings2.Controllers
         private readonly IReadingsRepository _readingsRepo;
         private readonly ITranslationsRepository _translationsRepo;
         private readonly IReaderRepository _readerRepo;
+
+        private static readonly CookieOptions _cookieOptions = new CookieOptions
+        {
+            SameSite = SameSiteMode.Strict,
+            Expires = DateTimeOffset.MaxValue
+        };
 
         public HomeController(ILogger<HomeController> logger, 
             IReadingsRepository readingsRepo,
@@ -98,8 +105,8 @@ namespace BibleReadings2.Controllers
         [HttpPost("/settings")]
         public IActionResult SaveSettings(string english, string german)
         {
-            HttpContext.Response.Cookies.Append("english", english ?? string.Empty);
-            HttpContext.Response.Cookies.Append("german", german ?? string.Empty);
+            HttpContext.Response.Cookies.Append("english", english ?? string.Empty, _cookieOptions);
+            HttpContext.Response.Cookies.Append("german", german ?? string.Empty, _cookieOptions);
 
             var url = Url.Action("Index");
             return Redirect(url);
