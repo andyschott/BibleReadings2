@@ -37,7 +37,7 @@ namespace BibleReadings2.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            var today = DateTime.Today;
+            var today = GetToday();
             var url = Url.Action("GetReading", new
             {
                 year = today.Year,
@@ -56,7 +56,7 @@ namespace BibleReadings2.Controllers
             var readerTask = _readerRepo.GetReader();
 
             HttpContext.Request.Cookies.TryGetValue("english", out var english);
-            HttpContext.Request.Cookies.TryGetValue("german", out var german);            
+            HttpContext.Request.Cookies.TryGetValue("german", out var german);      
 
             await Task.WhenAll(readingsTask, readerTask);
 
@@ -81,7 +81,8 @@ namespace BibleReadings2.Controllers
             await Task.WhenAll(englishTask, germanTask);
 
             HttpContext.Request.Cookies.TryGetValue("english", out var english);
-            HttpContext.Request.Cookies.TryGetValue("german", out var german);            
+            HttpContext.Request.Cookies.TryGetValue("german", out var german);
+            HttpContext.Request.Cookies.TryGetValue("timezone", out var timezone);
 
             var model = new SettingsViewModel
             {
@@ -97,16 +98,20 @@ namespace BibleReadings2.Controllers
                     Translations = germanTask.Result,
                     SelectedTranslation = german
                 },
+                TimeZones = TimeZoneInfo.GetSystemTimeZones()
+                    .Select(timeZone => new TimeZoneViewModel(timeZone)),
+                SelectedTimeZone = timezone
             };
 
             return View(model);
         }
 
         [HttpPost("/settings")]
-        public IActionResult SaveSettings(string english, string german)
+        public IActionResult SaveSettings(string english, string german, string timezone)
         {
             HttpContext.Response.Cookies.Append("english", english ?? string.Empty, _cookieOptions);
             HttpContext.Response.Cookies.Append("german", german ?? string.Empty, _cookieOptions);
+            HttpContext.Response.Cookies.Append("timezone", timezone ?? string.Empty, _cookieOptions);
 
             var url = Url.Action("Index");
             return Redirect(url);
@@ -116,6 +121,33 @@ namespace BibleReadings2.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        private DateTime GetToday()
+        {
+            HttpContext.Request.Cookies.TryGetValue("timezone", out var timezoneId);
+
+            if (string.IsNullOrEmpty(timezoneId))
+            {
+                return DateTime.UtcNow;
+            }
+
+            var timezone = GetTimeZone(timezoneId);
+            
+            var today = DateTime.UtcNow;
+            return today + timezone.BaseUtcOffset;
+        }
+
+        private static TimeZoneInfo GetTimeZone(string id)
+        {
+            var timeZones = TimeZoneInfo.GetSystemTimeZones();
+            var timeZone = timeZones.FirstOrDefault(timeZone => timeZone.Id.Equals(id));
+            if(timeZone is null)
+            {
+                return TimeZoneInfo.Utc;
+            }
+
+            return timeZone;
         }
     }
 }
