@@ -23,6 +23,20 @@
             </div>
         </div>
     }
+    @if(Model.TimeZones != null)
+    {
+        <div class="row mt-2">
+            <div class="col">
+                <div>
+                    <span>Time Zone:</span>
+                    <br>
+                    <select id="timezone" name="timezone" asp-for="SelectedTimeZone"
+                        asp-items="@(new SelectList(@Model.TimeZones, "Id", "Name"))">
+                    </select>
+                </div>
+            </div>
+        </div>
+    }
 
     <div class="row mt-3">
         <div class="col">
