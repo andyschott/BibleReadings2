@@ -15,8 +15,8 @@ namespace BibleReadings2.Models
         public DateTime Next => Date.AddDays(1);
         public DateTime Previous => Date.AddDays(-1);
 
-        public string English { get; set; } = string.Empty;
-        public string German { get; set; } = string.Empty;
+        public string? English { get; set; } = string.Empty;
+        public string? German { get; set; } = string.Empty;
 
         public Reader? LastReader { get; set; }
 

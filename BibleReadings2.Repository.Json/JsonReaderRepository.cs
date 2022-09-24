@@ -41,7 +41,7 @@ namespace BibleReadings2.Repository.Json
 
         public async Task SaveReader(Reader reader)
         {
-            var dir = Path.GetDirectoryName(_filePath);
+            var dir = Path.GetDirectoryName(_filePath) ?? Directory.GetCurrentDirectory();
             if(!Directory.Exists(dir))
             {
                 Directory.CreateDirectory(dir);

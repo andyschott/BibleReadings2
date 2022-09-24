@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -22,7 +23,8 @@ namespace BibleReadings2.Repository.Json
             }
 
             using var stream = GetStream(month);
-            var days = await JsonSerializer.DeserializeAsync<Day[]>(stream, _options);
+            var days = await JsonSerializer.DeserializeAsync<Day[]>(stream, _options)
+                ?? Enumerable.Empty<Day>().ToArray();
 
             if(day < 1 || day > days.Length)
             {
@@ -34,7 +36,14 @@ namespace BibleReadings2.Repository.Json
 
         private static Stream GetStream(int month)
         {
-            return _assembly.GetManifestResourceStream($"BibleReadings2.Repository.Json.data.{month}.json");
+            var name = $"BibleReadings2.Repository.Json.data.{month}.json";
+            var stream = _assembly.GetManifestResourceStream(name);
+            if (stream is null)
+            {
+                throw new Exception($"The manifest resource stream '{name}' does not exist");
+            }
+
+            return stream;
         }
     }
 }

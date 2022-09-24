@@ -46,7 +46,7 @@ namespace BibleReadings2.Controllers
                 day = today.Day
             });
 
-            return Redirect(url);
+            return Redirect(url!);
         }
 
         [HttpGet("/{year}/{month}/{day}")]
@@ -115,7 +115,7 @@ namespace BibleReadings2.Controllers
             HttpContext.Response.Cookies.Append("timezone", timezone ?? string.Empty, _cookieOptions);
 
             var url = Url.Action("Index");
-            return Redirect(url);
+            return Redirect(url!);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

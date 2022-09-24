@@ -6,10 +6,10 @@ namespace BibleReadings2.Models
     public class ReadingViewModel
     {
         public Reading Reading { get; }
-        private readonly string _english;
-        private readonly string _german;
+        private readonly string? _english;
+        private readonly string? _german;
 
-        public ReadingViewModel(Reading reading, string english, string german)
+        public ReadingViewModel(Reading reading, string? english, string? german)
         {
             Reading = reading;
             _english = english;

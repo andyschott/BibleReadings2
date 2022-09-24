@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -22,10 +23,12 @@ namespace BibleReadings2.Repository.Json
             PropertyNameCaseInsensitive = true,
         };
 
-        public Task<IEnumerable<Translation>> GetTranslations(Languages language)
+        public async Task<IEnumerable<Translation>> GetTranslations(Languages language)
         {
             using var stream = GetStream(language);
-            return JsonSerializer.DeserializeAsync<IEnumerable<Translation>>(stream, _options).AsTask();
+            var translations = await JsonSerializer.DeserializeAsync<IEnumerable<Translation>>(stream, _options).AsTask();
+
+            return translations ?? Enumerable.Empty<Translation>();
         }
 
         private static Stream GetStream(Languages language)
@@ -35,7 +38,15 @@ namespace BibleReadings2.Repository.Json
                 throw new ArgumentException(nameof(language));
             }
 
-            return _assembly.GetManifestResourceStream($"BibleReadings2.Repository.Json.data.{name}_translations.json");
+            string streamName = $"BibleReadings2.Repository.Json.data.{name}_translations.json";
+            var stream =_assembly.GetManifestResourceStream(streamName);
+
+            if (stream is null)
+            {
+                throw new Exception($"The manifest resource stream '{streamName}' does not exist");
+            }
+
+            return stream;
         }
     }
 }

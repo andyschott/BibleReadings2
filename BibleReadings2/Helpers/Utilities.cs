@@ -44,7 +44,7 @@ namespace BibleReadings2.Helpers
             return date.ToString("D");
         }
 
-        public static DateTime GetToday(string timezoneId)
+        public static DateTime GetToday(string? timezoneId)
         {
             if (string.IsNullOrEmpty(timezoneId))
             {
