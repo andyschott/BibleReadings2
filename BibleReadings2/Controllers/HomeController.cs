@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System;
 using System.Linq;
 using Microsoft.AspNetCore.Http;
+using BibleReadings2.Helpers;
 
 namespace BibleReadings2.Controllers
 {
@@ -126,28 +127,7 @@ namespace BibleReadings2.Controllers
         private DateTime GetToday()
         {
             HttpContext.Request.Cookies.TryGetValue("timezone", out var timezoneId);
-
-            if (string.IsNullOrEmpty(timezoneId))
-            {
-                return DateTime.UtcNow;
-            }
-
-            var timezone = GetTimeZone(timezoneId);
-            
-            var today = DateTime.UtcNow;
-            return today + timezone.BaseUtcOffset;
-        }
-
-        private static TimeZoneInfo GetTimeZone(string id)
-        {
-            var timeZones = TimeZoneInfo.GetSystemTimeZones();
-            var timeZone = timeZones.FirstOrDefault(timeZone => timeZone.Id.Equals(id));
-            if(timeZone is null)
-            {
-                return TimeZoneInfo.Utc;
-            }
-
-            return timeZone;
+            return Utilities.GetToday(timezoneId);
         }
     }
 }

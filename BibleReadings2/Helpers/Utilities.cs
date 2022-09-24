@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using BibleReadings2.Repository;
 
 namespace BibleReadings2.Helpers
@@ -41,6 +42,31 @@ namespace BibleReadings2.Helpers
             }
 
             return date.ToString("D");
+        }
+
+        public static DateTime GetToday(string timezoneId)
+        {
+            if (string.IsNullOrEmpty(timezoneId))
+            {
+                return DateTime.UtcNow;
+            }
+
+            var timezone = GetTimeZone(timezoneId);
+            
+            var today = DateTime.UtcNow;
+            return today + timezone.BaseUtcOffset;
+        }
+
+        private static TimeZoneInfo GetTimeZone(string id)
+        {
+            var timeZones = TimeZoneInfo.GetSystemTimeZones();
+            var timeZone = timeZones.FirstOrDefault(timeZone => timeZone.Id.Equals(id));
+            if(timeZone is null)
+            {
+                return TimeZoneInfo.Utc;
+            }
+
+            return timeZone;
         }
     }
 }

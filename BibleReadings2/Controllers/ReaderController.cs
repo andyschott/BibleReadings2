@@ -43,6 +43,11 @@ namespace BibleReadings2.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Save([FromBody] Reader reader)
         {
+            if (reader.Date == default)
+            {
+                reader.Date = GetToday();
+            }
+
             try
             {
                 await _repository.SaveReader(reader);
@@ -58,6 +63,12 @@ namespace BibleReadings2.Controllers
                 _logger.LogError("Error saving {reader}: {exception}", reader, ex);
                 return BadRequest();
             }
+        }
+
+        private DateTime GetToday()
+        {
+            HttpContext.Request.Cookies.TryGetValue("timezone", out var timezoneId);
+            return Utilities.GetToday(timezoneId);
         }
     }
 }

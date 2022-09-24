@@ -10,8 +10,7 @@ selectElement.addEventListener('change', (event) => {
     }
 
     const reader = {
-        "name": name,
-        "date": new Date().toISOString()
+        "name": name
     };
 
     const request = new XMLHttpRequest();
