@@ -10,10 +10,10 @@ namespace BibleReadings2.Helpers
         {
             if(reader == null)
             {
-                return "No one has read before.";
+                return "No one has read the devotion before.";
             }
 
-            return $"{reader.Name} read first {DateDescription(reader.Date)}.";
+            return $"{reader.Name} read the devotion {DateDescription(reader.Date)}.";
         }
 
         private static string DateDescription(DateTime date)
