@@ -38,7 +38,7 @@ namespace BibleReadings2.Controllers
 
             if (HttpContext.Request.Cookies.TryGetValue("timezone", out var timeZoneId))
             {
-                reader.AdjustDate(timeZoneId);
+                reader.Date = reader.Date.ToTimeZone(timeZoneId);
             }
 
             return Ok(reader);
@@ -60,7 +60,7 @@ namespace BibleReadings2.Controllers
 
                 if (HttpContext.Request.Cookies.TryGetValue("timezone", out var timeZoneId))
                 {
-                    reader.AdjustDate(timeZoneId);
+                    reader.Date = reader.Date.ToTimeZone(timeZoneId);
                 }
 
                 var description = new ReaderDescription

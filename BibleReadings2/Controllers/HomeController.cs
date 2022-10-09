@@ -39,7 +39,12 @@ namespace BibleReadings2.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            var today = GetToday();
+            var today = new DateTimeOffset(DateTime.UtcNow, TimeSpan.Zero);
+            if (HttpContext.Request.Cookies.TryGetValue("timezone", out var timeZoneId))
+            {
+                today = today.ToTimeZone(timeZoneId);
+            }
+
             var url = Url.Action("GetReading", new
             {
                 year = today.Year,
@@ -64,7 +69,7 @@ namespace BibleReadings2.Controllers
 
             if (readerTask.Result is not null && HttpContext.Request.Cookies.TryGetValue("timezone", out var timeZoneId))
             {
-                readerTask.Result.AdjustDate(timeZoneId);
+                readerTask.Result.Date = readerTask.Result.Date.ToTimeZone(timeZoneId);
             }
 
             var model = new ReadingsViewModel
@@ -128,12 +133,6 @@ namespace BibleReadings2.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
-
-        private DateTime GetToday()
-        {
-            HttpContext.Request.Cookies.TryGetValue("timezone", out var timezoneId);
-            return Utilities.GetToday(timezoneId);
         }
     }
 }
