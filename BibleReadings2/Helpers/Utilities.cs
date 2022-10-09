@@ -13,7 +13,7 @@ namespace BibleReadings2.Helpers
                 return "No one has read the devotion before.";
             }
 
-            return $"{reader.Name} read the devotion {DateDescription(reader.Date)}.";
+            return $"{reader.Name} read the devotion {DateDescription(reader.Date.Date)}.";
         }
 
         private static string DateDescription(DateTime date)
@@ -57,7 +57,7 @@ namespace BibleReadings2.Helpers
             return today + timezone.BaseUtcOffset;
         }
 
-        private static TimeZoneInfo GetTimeZone(string id)
+        public static TimeZoneInfo GetTimeZone(string id)
         {
             var timeZones = TimeZoneInfo.GetSystemTimeZones();
             var timeZone = timeZones.FirstOrDefault(timeZone => timeZone.Id.Equals(id));

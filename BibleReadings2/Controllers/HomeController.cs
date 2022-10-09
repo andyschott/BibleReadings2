@@ -8,6 +8,7 @@ using System;
 using System.Linq;
 using Microsoft.AspNetCore.Http;
 using BibleReadings2.Helpers;
+using BibleReadings2.Extensions;
 
 namespace BibleReadings2.Controllers
 {
@@ -60,6 +61,11 @@ namespace BibleReadings2.Controllers
             HttpContext.Request.Cookies.TryGetValue("german", out var german);      
 
             await Task.WhenAll(readingsTask, readerTask);
+
+            if (readerTask.Result is not null && HttpContext.Request.Cookies.TryGetValue("timezone", out var timeZoneId))
+            {
+                readerTask.Result.AdjustDate(timeZoneId);
+            }
 
             var model = new ReadingsViewModel
             {

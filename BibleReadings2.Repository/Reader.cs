@@ -6,13 +6,8 @@ namespace BibleReadings2.Repository
     {
         public string Name { get; set; } = string.Empty;
 
-        private DateTime _date;
-        public DateTime Date
-        {
-            get { return _date.ToLocalTime().Date; }
-            set { _date = value; }
-        }
+        public DateTimeOffset Date { get; set; }
 
-        public override string ToString() => $"{Name} @ {Date.ToShortDateString()}";
+        public override string ToString() => $"{Name} @ {Date.Date.ToShortDateString()}";
     }
 }

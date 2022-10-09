@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using BibleReadings2.Extensions;
 using BibleReadings2.Helpers;
 using BibleReadings2.Models;
 using BibleReadings2.Repository;
@@ -35,6 +36,11 @@ namespace BibleReadings2.Controllers
                 return NotFound();
             }
 
+            if (HttpContext.Request.Cookies.TryGetValue("timezone", out var timeZoneId))
+            {
+                reader.AdjustDate(timeZoneId);
+            }
+
             return Ok(reader);
         }
 
@@ -45,12 +51,17 @@ namespace BibleReadings2.Controllers
         {
             if (reader.Date == default)
             {
-                reader.Date = GetToday();
+                reader.Date = new DateTimeOffset(DateTime.UtcNow, TimeSpan.Zero);
             }
 
             try
             {
                 await _repository.SaveReader(reader);
+
+                if (HttpContext.Request.Cookies.TryGetValue("timezone", out var timeZoneId))
+                {
+                    reader.AdjustDate(timeZoneId);
+                }
 
                 var description = new ReaderDescription
                 {
@@ -63,12 +74,6 @@ namespace BibleReadings2.Controllers
                 _logger.LogError("Error saving {reader}: {exception}", reader, ex);
                 return BadRequest();
             }
-        }
-
-        private DateTime GetToday()
-        {
-            HttpContext.Request.Cookies.TryGetValue("timezone", out var timezoneId);
-            return Utilities.GetToday(timezoneId);
         }
     }
 }
