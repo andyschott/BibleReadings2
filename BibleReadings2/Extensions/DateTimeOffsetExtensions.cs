@@ -13,7 +13,7 @@ namespace BibleReadings2.Extensions
             }
 
             var timeZone = GetTimeZone(timeZoneId);
-            return date.ToOffset(timeZone.BaseUtcOffset);
+            return TimeZoneInfo.ConvertTimeFromUtc(date.DateTime, timeZone);
         }
 
         private static TimeZoneInfo GetTimeZone(string id)
