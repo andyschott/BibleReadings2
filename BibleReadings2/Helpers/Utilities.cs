@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using BibleReadings2.Extensions;
 using BibleReadings2.Repository;
 
 namespace BibleReadings2.Helpers
@@ -13,24 +14,25 @@ namespace BibleReadings2.Helpers
                 return "No one has read the devotion before.";
             }
 
-            return $"{reader.Name} read the devotion {DateDescription(reader.Date.Date)}.";
+            return $"{reader.Name} read the devotion {DateDescription(reader.Date)}.";
         }
 
-        private static string DateDescription(DateTime date)
+        private static string DateDescription(DateTimeOffset date)
         {
             if(date == default)
             {
                 return "last time";
             }
 
-            var today = DateTime.Today;
-            if(date == today)
+            var today = new DateTimeOffset(DateTime.UtcNow, TimeSpan.Zero)
+                .ToOffset(date.Offset);
+            if(date.IsSameDay(today))
             {
                 return "today";
             }
 
             var yesterday = today.AddDays(-1);
-            if(date == yesterday)
+            if(date.IsSameDay(yesterday))
             {
                 return "yesterday";
             }
@@ -42,6 +44,13 @@ namespace BibleReadings2.Helpers
             }
 
             return date.ToString("D");
+        }
+
+        private static bool IsSameDay(this DateTimeOffset date, DateTimeOffset other)
+        {
+            return date.Year == other.Year &&
+                date.Month == other.Month &&
+                date.Day == other.Day;
         }
     }
 }
