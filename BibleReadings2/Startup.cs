@@ -1,3 +1,4 @@
+using System;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,7 +28,12 @@ namespace BibleReadings2
                     config.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
                 });
 
-            services.AddJsonRepository(Configuration["ReaderPath"]);
+            var readerPath = Configuration["ReaderPath"];
+            if (readerPath is null)
+            {
+                throw new Exception("Unable to find ReaderPath in the configuration");
+            }
+            services.AddJsonRepository(readerPath);
 
             services.AddSwaggerGen(config =>
             {
