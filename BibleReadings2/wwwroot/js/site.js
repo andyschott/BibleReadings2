@@ -29,3 +29,24 @@ function onReaderSaved() {
     const description = JSON.parse(this.responseText);
     p.innerHTML = description.description;
 }
+
+const passageSearch = document.querySelector('#passageSearch');
+passageSearch.addEventListener('click', (event) => {
+    const passage = document.getElementById('passage').value;
+    const uri = encodeURI(`/api/lookup/${passage}`);
+
+    const request = new XMLHttpRequest();
+    request.addEventListener('load', onPassageUrlReceived);
+    request.open('GET', uri);
+    request.setRequestHeader('Content-Type', 'application/json');
+    request.send();
+})
+
+function onPassageUrlReceived() {
+    if (this.status !== 200) {
+        return;
+    }
+
+    const url = JSON.parse(this.responseText);
+    window.location.href = url;
+}

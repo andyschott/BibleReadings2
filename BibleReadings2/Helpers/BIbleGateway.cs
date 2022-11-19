@@ -32,7 +32,12 @@ namespace BibleReadings2.Helpers
 
         public static string BuildReadingUrl(Reading reading, string? english, string? german)
         {
-            return BaseUrl + BuildReadingText(reading) + GetTranslationQueryString(english, german);
+            return BuildReadingUrl(BuildReadingText(reading), english, german);
+        }
+
+        public static string BuildReadingUrl(string readingText, string? english, string? german)
+        {
+            return BaseUrl + readingText + GetTranslationQueryString(english, german);
         }
 
         public static string BuildAllReadingsUrl(IEnumerable<Reading> readings, string? english, string? german)
