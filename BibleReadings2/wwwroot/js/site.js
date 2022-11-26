@@ -48,5 +48,5 @@ function onPassageUrlReceived() {
     }
 
     const url = JSON.parse(this.responseText);
-    window.location.href = url;
+    window.open(url, '_blank');
 }
