@@ -1,29 +1,29 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BibleReadings2.Repository\BibleReadings2.Repository.csproj"/>
+    <ProjectReference Include="..\BibleReadings2.Repository\BibleReadings2.Repository.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0"/>
-    <PackageReference Include="System.Text.Json" Version="7.0.0"/>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    <PackageReference Include="System.Text.Json" Version="8.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="data/1.json"/>
-    <EmbeddedResource Include="data/2.json"/>
-    <EmbeddedResource Include="data/3.json"/>
-    <EmbeddedResource Include="data/4.json"/>
-    <EmbeddedResource Include="data/5.json"/>
-    <EmbeddedResource Include="data/6.json"/>
-    <EmbeddedResource Include="data/7.json"/>
-    <EmbeddedResource Include="data/8.json"/>
-    <EmbeddedResource Include="data/9.json"/>
-    <EmbeddedResource Include="data/10.json"/>
-    <EmbeddedResource Include="data/11.json"/>
-    <EmbeddedResource Include="data/12.json"/>
-    <EmbeddedResource Include="data/english_translations.json"/>
-    <EmbeddedResource Include="data/german_translations.json"/>
+    <EmbeddedResource Include="data/1.json" />
+    <EmbeddedResource Include="data/2.json" />
+    <EmbeddedResource Include="data/3.json" />
+    <EmbeddedResource Include="data/4.json" />
+    <EmbeddedResource Include="data/5.json" />
+    <EmbeddedResource Include="data/6.json" />
+    <EmbeddedResource Include="data/7.json" />
+    <EmbeddedResource Include="data/8.json" />
+    <EmbeddedResource Include="data/9.json" />
+    <EmbeddedResource Include="data/10.json" />
+    <EmbeddedResource Include="data/11.json" />
+    <EmbeddedResource Include="data/12.json" />
+    <EmbeddedResource Include="data/english_translations.json" />
+    <EmbeddedResource Include="data/german_translations.json" />
   </ItemGroup>
 </Project>
