@@ -1,4 +1,5 @@
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+ARG TARGETARCH
 WORKDIR /src
 
 # copy everything and build app
@@ -6,10 +7,11 @@ COPY BibleReadings2/. ./BibleReadings2/
 COPY BibleReadings2.Repository/. ./BibleReadings2.Repository/
 COPY BibleReadings2.Repository.Json/. ./BibleReadings2.Repository.Json/
 
-WORKDIR /src
-RUN dotnet publish BibleReadings2/BibleReadings2.csproj -c Release -o out
+RUN dotnet publish -a $TARGETARCH BibleReadings2/BibleReadings2.csproj -o out
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 COPY --from=build /src/out ./
-ENTRYPOINT ["dotnet", "BibleReadings2.dll"]
+USER $APP_UID
+
+ENTRYPOINT ["./BibleReadings2"]
