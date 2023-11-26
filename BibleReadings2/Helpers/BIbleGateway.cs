@@ -48,7 +48,7 @@ namespace BibleReadings2.Helpers
             }
 
             var readingTexts = readings.Select(reading => BuildReadingText(reading));
-            return BaseUrl + string.Join(';', readingTexts) + GetTranslationQueryString(english, german);
+            return BaseUrl + string.Join("; ", readingTexts) + GetTranslationQueryString(english, german);
         }
 
         private static string GetTranslationQueryString(string? english, string? german)
