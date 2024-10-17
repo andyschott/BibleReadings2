@@ -88,6 +88,11 @@ body {
   color: #6c757d !important;
 }
 
+.divider {
+  border-top: 1px solid #000;
+  display: inline-block;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #000;
@@ -144,5 +149,9 @@ body {
   }
   nav {
     border-bottom: 1px solid #484848;
+  }
+
+  .divider {
+    border-top: 1px solid #fff;
   }
 }
