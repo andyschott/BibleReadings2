@@ -3,3 +3,4 @@ obj/
 .vscode/
 .devcontainer/
 BibleReadings2/data/
+.idea/
