@@ -9,7 +9,7 @@ COPY BibleReadings2.Repository.Json/. ./BibleReadings2.Repository.Json/
 
 RUN dotnet publish -a $TARGETARCH BibleReadings2/BibleReadings2.csproj -o out
 
-FROM mcr.microsoft.com/dotnet/aspnet:9.0-noble-chiseled AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
 WORKDIR /app
 COPY --from=build /src/out ./
 USER $APP_UID
