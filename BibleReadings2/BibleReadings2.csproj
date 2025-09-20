@@ -14,6 +14,8 @@
   <PropertyGroup>
     <ContainerRegistry>ghcr.io</ContainerRegistry>
     <ContainerImageTag>$(GITHUB_SHA)</ContainerImageTag>
-    <ContainerLabel Include="com.docker.extension.publisher-url" Value="$(GITHUB_SERVER_URL)/$(GITHUB_REPOSITORY_OWNER)" />
   </PropertyGroup>
+  <ItemGroup>
+    <ContainerLabel Include="com.docker.extension.publisher-url" Value="$(GITHUB_SERVER_URL)/$(GITHUB_REPOSITORY_OWNER)" />
+  </ItemGroup>
 </Project>
