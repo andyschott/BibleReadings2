@@ -12,7 +12,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <PropertyGroup>
-    <ContainerRegistry>$(GITHUB_REPOSITORY)</ContainerRegistry>
+    <ContainerRegistry>ghcr.io</ContainerRegistry>
     <ContainerImageTag>$(GITHUB_SHA)</ContainerImageTag>
+    <ContainerLabel Include="com.docker.extension.publisher-url" Value="$(GITHUB_SERVER_URL)/$(GITHUB_REPOSITORY_OWNER)" />
   </PropertyGroup>
 </Project>
