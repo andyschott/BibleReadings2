@@ -18,4 +18,4 @@ jobs:
         registry: ghcr.io
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
-    - run: dotnet publish --os linux --arch x64 /t:PublishContainer
+    - run: dotnet publish BibleReadings2/BibleReadings2.csproj --os linux --arch x64 /t:PublishContainer
