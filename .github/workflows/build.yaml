@@ -22,4 +22,4 @@ jobs:
       env:
         ContainerRegistry: ghcr.io
         ContainerRepository: ${{ github.repository }}
-      run: dotnet publish BibleReadings2/BibleReadings2.csproj --no-restore --os linux --arch x64 /t:PublishContainer
+      run: dotnet publish BibleReadings2/BibleReadings2.csproj --os linux --arch x64 /t:PublishContainer
