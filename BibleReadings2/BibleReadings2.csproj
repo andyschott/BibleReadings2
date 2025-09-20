@@ -11,4 +11,8 @@
   <PropertyGroup>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <PropertyGroup>
+    <ContainerRegistry>$(GITHUB_REPOSITORY)</ContainerRegistry>
+    <ContainerImageTag>$(GITHUB_SHA)
+  </PropertyGroup>
 </Project>
