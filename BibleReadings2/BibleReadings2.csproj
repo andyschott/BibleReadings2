@@ -13,6 +13,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ContainerRegistry>$(GITHUB_REPOSITORY)</ContainerRegistry>
-    <ContainerImageTag>$(GITHUB_SHA)
+    <ContainerImageTag>$(GITHUB_SHA)</ContainerImageTag>
   </PropertyGroup>
 </Project>
