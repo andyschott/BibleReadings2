@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.OpenApi.Models;
 
 namespace BibleReadings2
 {
@@ -34,15 +33,6 @@ namespace BibleReadings2
                 throw new Exception("Unable to find ReaderPath in the configuration");
             }
             services.AddJsonRepository(readerPath);
-
-            services.AddSwaggerGen(config =>
-            {
-                config.SwaggerDoc("v1", new OpenApiInfo
-                {
-                    Title = "Bible Readings 2",
-                    Version = "v1"
-                });
-            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,15 +51,6 @@ namespace BibleReadings2
             app.UseRouting();
 
             app.UseAuthorization();
-
-            if(env.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI(config =>
-                {
-                    config.SwaggerEndpoint("/swagger/v1/swagger.json", "Bible Readings v1");
-                });
-            }
 
             app.UseEndpoints(endpoints =>
             {
