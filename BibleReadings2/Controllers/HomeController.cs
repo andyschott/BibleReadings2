@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 using System;
 using System.Linq;
 using Microsoft.AspNetCore.Http;
-using BibleReadings2.Helpers;
 using BibleReadings2.Extensions;
-using System.Web;
 
 namespace BibleReadings2.Controllers
 {
@@ -56,10 +54,19 @@ namespace BibleReadings2.Controllers
             return Redirect(url!);
         }
 
-        [HttpGet("/{year}/{month}/{day}")]
+        [HttpGet("/{year:int}/{month:int}/{day:int}")]
         public async Task<IActionResult> GetReading(int year, int month, int day)
         {
-            var date = new DateTime(year, month, day);
+            DateTime date;
+            try
+            {
+                date = new DateTime(year, month, day);
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+                return Index();
+            }
+
             var readingsTask = _readingsRepo.GetReadings(date.Month, date.Day);
             var readerTask = _readerRepo.GetReader();
 
