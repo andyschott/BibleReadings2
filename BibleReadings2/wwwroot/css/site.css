@@ -125,6 +125,10 @@ a:focus {
   margin: 1rem 0 0;
 }
 
+.all-readings-link-wrap + .day-navigation {
+  margin-top: 1rem;
+}
+
 .action-link {
   display: inline-flex;
   align-items: center;

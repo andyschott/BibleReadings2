@@ -7,9 +7,6 @@
 <section class="page-grid readings-page">
     <div class="app-card app-card--hero">
         @await Html.PartialAsync("ReadingsPartial", Model)
-    </div>
-
-    <div class="app-card app-card--compact">
         <nav class="day-navigation" aria-label="Date navigation">
             <a class="action-link" asp-action="GetReading" asp-controller="Home"
                asp-route-year="@Model.Previous.Year"
