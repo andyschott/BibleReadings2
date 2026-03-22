@@ -4,43 +4,31 @@
     ViewData["Title"] = "Settings";
 }
 
-<h1>Translations</h1>
+<section class="page-grid settings-page">
+    <div class="app-card app-card--hero">
+        <h1 class="page-title">Settings</h1>
+        <p class="page-subtitle">Choose translations and your preferred time zone.</p>
 
-<form class="container" asp-controller="Home" asp-action="SaveSettings" method="post">
-    @if(Model.EnglishTranslations != null)
-    {
-        <div class="row">
-            <div class="col">
+        <form class="settings-form" asp-controller="Home" asp-action="SaveSettings" method="post">
+            @if(Model.EnglishTranslations != null)
+            {
                 @await Html.PartialAsync("TranslationPartial", @Model.EnglishTranslations)
-            </div>
-        </div>
-    }
-    @if(Model.GermanTranslations != null)
-    {
-        <div class="row mt-2">
-            <div class="col">
+            }
+            @if(Model.GermanTranslations != null)
+            {
                 @await Html.PartialAsync("TranslationPartial", @Model.GermanTranslations)
-            </div>
-        </div>
-    }
-    @if(Model.TimeZones != null)
-    {
-        <div class="row mt-2">
-            <div class="col">
-                <div>
-                    <span>Time Zone:</span>
-                    <br>
-                    <select id="timezone" name="timezone" asp-for="SelectedTimeZone"
-                        asp-items="@(new SelectList(@Model.TimeZones, "Id", "Name"))">
+            }
+            @if(Model.TimeZones != null)
+            {
+                <div class="settings-field">
+                    <label class="field-label" for="timezone">Time Zone</label>
+                    <select id="timezone" name="timezone" class="app-control" asp-for="SelectedTimeZone"
+                            asp-items="@(new SelectList(@Model.TimeZones, "Id", "Name"))">
                     </select>
                 </div>
-            </div>
-        </div>
-    }
+            }
 
-    <div class="row mt-3">
-        <div class="col">
-            <button type="Submit" class="btn btn-primary">Save</button>
-        </div>
+            <button type="submit" class="btn app-btn-primary">Save</button>
+        </form>
     </div>
-</form>
+</section>

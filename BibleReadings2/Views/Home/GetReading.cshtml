@@ -1,117 +1,109 @@
-﻿@model ReadingsViewModel
+@model ReadingsViewModel
 
 @{
     ViewData["Title"] = "Readings";
 }
 
-<div class="container">
-    <div class="row">
-        <div class="col">
-            @await Html.PartialAsync("ReadingsPartial", Model)
+<section class="page-grid readings-page">
+    <div class="app-card app-card--hero">
+        @await Html.PartialAsync("ReadingsPartial", Model)
+    </div>
+
+    <div class="app-card app-card--compact">
+        <nav class="day-navigation" aria-label="Date navigation">
+            <a class="action-link" asp-action="GetReading" asp-controller="Home"
+               asp-route-year="@Model.Previous.Year"
+               asp-route-month="@Model.Previous.Month"
+               asp-route-day="@Model.Previous.Day">&lt;&lt; Previous</a>
+            <a class="action-link" asp-action="Index" asp-controller="Home">Today</a>
+            <a class="action-link" asp-action="GetReading" asp-controller="Home"
+               asp-route-year="@Model.Next.Year"
+               asp-route-month="@Model.Next.Month"
+               asp-route-day="@Model.Next.Day">Next &gt;&gt;</a>
+        </nav>
+    </div>
+
+    <div class="app-card app-card--compact">
+        <h2 class="section-title">Reader</h2>
+        <p id="reader" class="reader-note">@BibleReadings2.Helpers.Utilities.BuildReaderDescription(Model.LastReader)</p>
+        <label class="field-label" for="readerSelect">Who read the devotion today?</label>
+        <select id="readerSelect" class="app-control">
+            <option selected value="">Choose a reader</option>
+            <option value="Andy">Andy</option>
+            <option value="Melissa">Melissa</option>
+        </select>
+    </div>
+
+    <div class="app-card app-card--compact">
+        <h2 class="section-title">Passage Lookup</h2>
+        <label class="field-label" for="passage">Jump to a specific passage</label>
+        <div class="lookup-row">
+            <input id="passage" class="app-control" type="text" list="books" placeholder="Example: John 3:16" />
+            <datalist id="books">
+                <option value="Genesis"></option>
+                <option value="Exodus"></option>
+                <option value="Leviticus"></option>
+                <option value="Numbers"></option>
+                <option value="Deuteronomy"></option>
+                <option value="Joshua"></option>
+                <option value="Judges"></option>
+                <option value="Ruth"></option>
+                <option value="1 Samuel"></option>
+                <option value="2 Samuel"></option>
+                <option value="1 Kings"></option>
+                <option value="1 Chronicles"></option>
+                <option value="Ezra"></option>
+                <option value="Esther"></option>
+                <option value="Job"></option>
+                <option value="Psalm"></option>
+                <option value="Proverbs"></option>
+                <option value="Ecclesiastes"></option>
+                <option value="Song of Songs"></option>
+                <option value="Isaiah"></option>
+                <option value="Jeremiah"></option>
+                <option value="Ezekiel"></option>
+                <option value="Daniel"></option>
+                <option value="Hosea"></option>
+                <option value="Joel"></option>
+                <option value="Amos"></option>
+                <option value="Obadiah"></option>
+                <option value="Jonah"></option>
+                <option value="Micah"></option>
+                <option value="Nahum"></option>
+                <option value="Habakkuk"></option>
+                <option value="Zephaniah"></option>
+                <option value="Haggai"></option>
+                <option value="Zechariah"></option>
+                <option value="Malachi"></option>
+                <option value="Matthew"></option>
+                <option value="Mark"></option>
+                <option value="Luke"></option>
+                <option value="John"></option>
+                <option value="Acts"></option>
+                <option value="Romans"></option>
+                <option value="1 Corinthians"></option>
+                <option value="2 Corinthians"></option>
+                <option value="Galatians"></option>
+                <option value="Ephesians"></option>
+                <option value="Philippians"></option>
+                <option value="Colossians"></option>
+                <option value="1 Thessalonians"></option>
+                <option value="2 Thessalonains"></option>
+                <option value="1 Timothy"></option>
+                <option value="2 Timothy"></option>
+                <option value="Titus"></option>
+                <option value="Philemon"></option>
+                <option value="Hebrews"></option>
+                <option value="James"></option>
+                <option value="1 Peter"></option>
+                <option value="2 Peter"></option>
+                <option value="1 John"></option>
+                <option value="2 John"></option>
+                <option value="3 John"></option>
+                <option value="Jude"></option>
+                <option value="Revelation"></option>
+            </datalist>
+            <button type="button" id="passageSearch" class="btn app-btn-primary">Lookup</button>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <div class="divider">
-                <a asp-action="GetReading" asp-controller="Home"
-                    asp-route-year="@Model.Previous.Year"
-                    asp-route-month="@Model.Previous.Month"
-                    asp-route-day="@Model.Previous.Day">&lt;&lt; Previous</a>
-                |
-                <a asp-action="Index" asp-controller="Home">Today</a>
-                |
-                <a asp-action="GetReading" asp-controller="Home"
-                    asp-route-year="@Model.Next.Year"
-                    asp-route-month="@Model.Next.Month"
-                    asp-route-day="@Model.Next.Day">Next &gt;&gt;</a>
-            </div>
-        </div>
-    </div>
-    <div class="row mt-3">
-        <div class="col">
-            <p id="reader">@BibleReadings2.Helpers.Utilities.BuildReaderDescription(Model.LastReader)</p>
-            <p>
-                <select id="readerSelect">
-                    <option selected value="">Who read the devotion today?</option>
-                    <option value="Andy">Andy</option>
-                    <option value="Melissa">Melissa</option>
-                </select>
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="divider">
-                <h3>Passage</h3>
-                <p>
-                    <input id="passage" type="text"  list="books" />
-                    <datalist id="books">
-                        <option value="Genesis"></option>
-                        <option value="Exodus"></option>
-                        <option value="Leviticus"></option>
-                        <option value="Numbers"></option>
-                        <option value="Deuteronomy"></option>
-                        <option value="Joshua"></option>
-                        <option value="Judges"></option>
-                        <option value="Ruth"></option>
-                        <option value="1 Samuel"></option>
-                        <option value="2 Samuel"></option>
-                        <option value="1 Kings"></option>
-                        <option value="1 Chronicles"></option>
-                        <option value="Ezra"></option>
-                        <option value="Esther"></option>
-                        <option value="Job"></option>
-                        <option value="Psalm"></option>
-                        <option value="Proverbs"></option>
-                        <option value="Ecclesiastes"></option>
-                        <option value="Song of Songs"></option>
-                        <option value="Isaiah"></option>
-                        <option value="Jeremiah"></option>
-                        <option value="Ezekiel"></option>
-                        <option value="Daniel"></option>
-                        <option value="Hosea"></option>
-                        <option value="Joel"></option>
-                        <option value="Amos"></option>
-                        <option value="Obadiah"></option>
-                        <option value="Jonah"></option>
-                        <option value="Micah"></option>
-                        <option value="Nahum"></option>
-                        <option value="Habakkuk"></option>
-                        <option value="Zephaniah"></option>
-                        <option value="Haggai"></option>
-                        <option value="Zechariah"></option>
-                        <option value="Malachi"></option>
-                        <option value="Matthew"></option>
-                        <option value="Mark"></option>
-                        <option value="Luke"></option>
-                        <option value="John"></option>
-                        <option value="Acts"></option>
-                        <option value="Romans"></option>
-                        <option value="1 Corinthians"></option>
-                        <option value="2 Corinthians"></option>
-                        <option value="Galatians"></option>
-                        <option value="Ephesians"></option>
-                        <option value="Philippians"></option>
-                        <option value="Colossians"></option>
-                        <option value="1 Thessalonians"></option>
-                        <option value="2 Thessalonains"></option>
-                        <option value="1 Timothy"></option>
-                        <option value="2 Timothy"></option>
-                        <option value="Titus"></option>
-                        <option value="Philemon"></option>
-                        <option value="Hebrews"></option>
-                        <option value="James"></option>
-                        <option value="1 Peter"></option>
-                        <option value="2 Peter"></option>
-                        <option value="1 John"></option>
-                        <option value="2 John"></option>
-                        <option value="3 John"></option>
-                        <option value="Jude"></option>
-                        <option value="Revelation"></option>
-                    </datalist>
-                    <input type="button" id="passageSearch" value="Lookup" />
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+</section>

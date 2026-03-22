@@ -1,14 +1,15 @@
 @model ReadingsViewModel
 
-<h1>Bible Readings for @Model.DateString</h1>
+<h1 class="page-title">Bible Readings</h1>
+<p class="page-subtitle">@Model.DateString</p>
 
-<ul>
+<ul class="reading-list" role="list">
     @foreach(var reading in Model.Readings)
     {
-        <li>@await Html.PartialAsync("ReadingPartial", reading)</li>
+        <li class="reading-item">@await Html.PartialAsync("ReadingPartial", reading)</li>
     }
 </ul>
 
-<p>
-    <a href="@Model.BuildAllReadingsLink()">Open All Readings</a>
+<p class="all-readings-link-wrap">
+    <a class="action-link" href="@Model.BuildAllReadingsLink()">Open All Readings</a>
 </p>

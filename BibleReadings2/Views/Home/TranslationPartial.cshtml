@@ -1,9 +1,8 @@
 @model TranslationViewModel
 
-<div>
-    <span>@Model.Language:</span>
-    <br>
-    <select id="@Model.Language" name="@Model.Language" asp-for="SelectedTranslation"
-        asp-items="@(new SelectList(@Model.Translations, "ShortName", "Name"))">
+<div class="settings-field">
+    <label class="field-label" for="@Model.Language">@Model.Language</label>
+    <select id="@Model.Language" name="@Model.Language" class="app-control" asp-for="SelectedTranslation"
+            asp-items="@(new SelectList(@Model.Translations, "ShortName", "Name"))">
     </select>
 </div>
