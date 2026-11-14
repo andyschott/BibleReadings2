@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v7.0.1
-    - uses: actions/setup-dotnet@v6.0.0
+    - uses: actions/setup-dotnet@v6.1.0
       with:
-        dotnet-version: '10.0.x'
+        dotnet-version: '11.0.x'
     - run: dotnet build --configuration Release
     - run: dotnet test --configuration Release --no-build
-    - uses: docker/login-action@v4.6.0
+    - uses: docker/login-action@v4.8.0
       with:
         registry: ghcr.io
         username: ${{github.actor}}
